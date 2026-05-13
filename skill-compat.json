@@ -1,0 +1,2221 @@
+{
+  "a2a-orchestrator": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "aacp": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "acp-delegate-auto": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "agent-cryst": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "ai-fi-manager": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "ai-sdk-core": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "algorithm-state-engine": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-calendar": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-change-point-update": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-chrome": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-chrome-bridge": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-colleague-attunement": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-design-system": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-directory": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-dropbox": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-excel-online": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-hl": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-ingest": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-md-mmd-design-system": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-meeting-live-copilot": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-meeting-prep": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-onedrive": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-org-templates": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-outlook": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-pipeline": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-presentation-prep-relay": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-program-context": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-project-schema": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-skill-assessment": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-smartsheet": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-teams": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-template-fallback": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-work-context": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "astemo-xlsx": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "async-boundary-queue": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "auth-matrix": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "bee": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "bee-audit": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "bee-brief": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "bee-setup": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "bee-status": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "bee-workflow": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "bitwarden-browser": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "bookmark-obsidian": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "browser-photo-harvest": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "browser-surface-bridge": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "bryan-voris-communication": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "cambrian-framework": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "caveman": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "caveman-commit": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "caveman-compress": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "caveman-review": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "cc-animation": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "cc-canvas-viz": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "cc-component": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "cc-dashboard": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "cc-design-system": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "cc-html-page": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "clawhip": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "cli-creator": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "cloud-drive-routing": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "cloudflare-worker-builder": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "codex-context": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "codex-latex": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "codex-policy-steering": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "command-center": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "copilot-canvas-renderer": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "craft-command-surfaces": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "craft-surface-router": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "craft-widget-kit": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "crystallize": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "cua-driver": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "data-dashboard": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "dataviz-color-data": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "de-standup": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "design-an-interface": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "design-system": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "disk-guard": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "domain-model": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "echo-loop": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "edit-article": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "electron": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "elixir-escript-mise": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "enterprise-artifact-generator": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "experience-capture": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "fh4s-change-point-update": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-context": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-drawing-check": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-drawing-query": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-honda-response": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-ingest": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-meeting-prep": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-mlc-pv-alignment": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-sasg-forms": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-smart-drawing": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "fh4s-smartsheet-sync": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "focus-iterm-bridge": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "focus-sync": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "friday-hud": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "friday-unified": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "gc-animation": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "gc-canvas-viz": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "gc-component": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "gc-dashboard": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "gc-design-system": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "gc-html-page": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "gh-recent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "ghen-takahashi-communication": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "git-guardrails-claude-code": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "github-cli-token-ops": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "github-ops": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "github-skill": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "github-triage": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "gli": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "goal-loop": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "gog-cli": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "grill-me": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "hayakawa-communication": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "here-now": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "hl-auth-priority": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-auto-index": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-break-even": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "hl-calendar": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-calendar-native": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-chatgpt": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-cost-tracking": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-cu-skills": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "hl-cursor-routing": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "hl-cursor-session-hooks": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "hl-dropbox": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-excel-online": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-fetch": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-hook-resilience": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-linkedin-public": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-live-api-testing": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "hl-m365": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-provider-id-normalization": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-safari-tabs": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-session-tracking": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-shadow-automation": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-shadow-cache": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-shadow-config-cycle": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-shadow-conversation-cycle": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-shadow-launchd": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-shadow-review": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-shadowprivacy": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "hl-shadowsecure": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "hl-sharepoint": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-skillmesh": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-subscription-maximize": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-subscription-research": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "hl-task-routing": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-trmnl": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-value-ratio": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hl-x": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "hook-perf": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "hosoya-haruyasu-communication": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "improve-codebase-architecture": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "init-tune": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "intelligence-report": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "iterm-mesh": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "kevin-butler-communication": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "langgraph-agent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "last-widget-context": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "launchd-mise-service": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "linear-graphql-api": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "linear-oauth-app-setup": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "m3-drawing-agent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "m3-engg": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "m3-honda-agent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "m3-quality-agent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "m3-standards-agent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "m3-supplier-agent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "m3-tracker-agent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "m365-auth": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "m365-search": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "mcp-dashboard-skin": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "md-evolution": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "meeting-check": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "mesh-audit": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "mesh-context": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "mesh-ops": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "mesh-scanner": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "mesh-security": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "microsoft-whiteboard-cli": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "migrate-to-shoehorn": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "miki-cross-communication": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "model-change-detector": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "model-identity": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "mole": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "monorepo-pr-scoping": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "multi-model-query": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "music-reverse-engineering": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "naming-conventions": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "nnn-cli": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "obsidian-live-transcript-routing": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "obsidian-vault": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "omarchy-design-system": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "omx-team-headless-bootstrap": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "open-source-smart-glasses": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "openages-if-releases": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "opencode-runtime-identity": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "operator-patterns": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "oracle-cloud": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "org-naming-schema-implementer": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "outlook-draft-guardrails": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "outlook-headless-workflow": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "patent-queue": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "persona-engine": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "plastic-injection-molding": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "plugin-creator": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "pptx-agent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "pptx-extract": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "pptx-visual-validation": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "qa": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "qmd-memory": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "re-skill-loop": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "react-props-form-automation": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "red-teams-self-message": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "reddit-recent-extract": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "redesign-taste-skill": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "reference-chain": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "relative-absolute": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "remotion-render": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "request-refactor-plan": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "research-bridge": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "reverse-github": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "ryoko-schaefer-communication": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "sabarish-communication-style": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "safari-applescript-js": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "saitoh-ken-communication": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "scaffold-exercises": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "self-observation-loop": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "setup-pre-commit": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadcn": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-adb": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "shadow-airplay-skill": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "shadow-anchor": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-cast-cli": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-clone": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-code-identity": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-connect": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-continuity": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-copilot": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-drop": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-elicitation": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-engg": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-intel": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-lists": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-mcp-gadgets": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "shadow-mind": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-notes": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-os-skills": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "shadow-patent-factory": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-pattern-daily": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "shadow-patterns": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-pi": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-pm": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-redteam": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-refactor": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-relay-agent": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-report-externalization": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-research-factory": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-secure": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "shadow-self-healing-services": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-self-healing-systemd": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-self-improve": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-service-discovery": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-sidecast": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-smt-health": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "shadow-summary": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-term": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-traces": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-trmnl": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "shadow-tui": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadow-typora-engine": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadow-x-live-theme-engine": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadowarchive-offload": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadowarchive-root-audit": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadowarchive-storage-ops": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadowarchive-tiering": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadowpedia": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "shadowtech-canvas-viz": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadowtech-design-system": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "shadowtech-html-page": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "skill-surgery-rd": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "slack": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "sp-crawl": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "spaces-skills": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "storage-ops": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "symphony-linear-setup": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "system-design-101": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "tailscale-mesh": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "tdd": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "teams-rich-compose": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "template-surface-router": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "to-issues": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "to-prd": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "triage-issue": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "trmnl-plugin-dev": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "ubiquitous-language": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "upscaler-brief": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "upscaler-status": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "voice-deconstruction": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "wacli": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "web-slide-studio": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "write-a-skill": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "x-claims": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "x-content-lab": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "x-growth": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "x-operator": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "x-research": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "xteink-firmware": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": true,
+    "copilot": false
+  },
+  "yt-recent-insights": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  },
+  "zai-vision-worker": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": false,
+    "cursor": false,
+    "copilot": false
+  },
+  "zoom-out": {
+    "craft-agent": true,
+    "claude-code": true,
+    "codex": true,
+    "cursor": true,
+    "copilot": true
+  }
+}

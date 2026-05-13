@@ -1,0 +1,17 @@
+{
+  "name": "@ishuru/skill-router",
+  "version": "1.0.0",
+  "description": "Multi-account skill distribution routing engine — subscription routing, GLM-001 privacy tiers, multi-agent patterns, dependency health.",
+  "main": "lib/router.js",
+  "bin": { "skill-router": "bin/skill-router.js" },
+  "files": ["lib/", "bin/"],
+  "scripts": {
+    "test": "node test/router.test.js",
+    "start": "node bin/skill-router.js"
+  },
+  "keywords": ["agent-skills", "craft-agent", "claude-code", "subscription-routing", "multi-agent"],
+  "author": "ishuru",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/ishuru/ishuru-skill-distribution.git" },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,7372 @@
+[
+  {
+    "skill_a": "astemo-hl",
+    "skill_b": "hl-m365",
+    "overlap": 40,
+    "pct": 100.0,
+    "shared": [
+      "access",
+      "also",
+      "astemo",
+      "astemo documents",
+      "astemo-hl",
+      "astemogroup",
+      "astemogroup.sharepoint.com",
+      "automation"
+    ]
+  },
+  {
+    "skill_a": "shadow-self-healing-services",
+    "skill_b": "shadow-self-healing-systemd",
+    "overlap": 10,
+    "pct": 90.9,
+    "shared": [
+      "auto-fix",
+      "common",
+      "healing",
+      "issues",
+      "needs",
+      "self",
+      "service",
+      "shadow"
+    ]
+  },
+  {
+    "skill_a": "bryan-voris-communication",
+    "skill_b": "ghen-takahashi-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "bryan-voris-communication",
+    "skill_b": "hosoya-haruyasu-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "bryan-voris-communication",
+    "skill_b": "kevin-butler-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "bryan-voris-communication",
+    "skill_b": "miki-cross-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "bryan-voris-communication",
+    "skill_b": "ryoko-schaefer-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "bryan-voris-communication",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "ghen-takahashi-communication",
+    "skill_b": "hosoya-haruyasu-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "ghen-takahashi-communication",
+    "skill_b": "kevin-butler-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "ghen-takahashi-communication",
+    "skill_b": "miki-cross-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "ghen-takahashi-communication",
+    "skill_b": "ryoko-schaefer-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "ghen-takahashi-communication",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "hosoya-haruyasu-communication",
+    "skill_b": "kevin-butler-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "kevin-butler-communication",
+    "skill_b": "miki-cross-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "kevin-butler-communication",
+    "skill_b": "ryoko-schaefer-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "kevin-butler-communication",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 18,
+    "pct": 90.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "hosoya-haruyasu-communication",
+    "skill_b": "miki-cross-communication",
+    "overlap": 18,
+    "pct": 85.7,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "hosoya-haruyasu-communication",
+    "skill_b": "ryoko-schaefer-communication",
+    "overlap": 18,
+    "pct": 85.7,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "hosoya-haruyasu-communication",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 18,
+    "pct": 85.7,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "miki-cross-communication",
+    "skill_b": "ryoko-schaefer-communication",
+    "overlap": 18,
+    "pct": 85.7,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "miki-cross-communication",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 18,
+    "pct": 85.7,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "ryoko-schaefer-communication",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 18,
+    "pct": 85.7,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "authority",
+      "communication",
+      "context",
+      "drafting",
+      "email"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "gc-dashboard",
+    "overlap": 11,
+    "pct": 84.6,
+    "shared": [
+      "codex",
+      "dashboard",
+      "design",
+      "generating",
+      "indicators",
+      "layout",
+      "panels",
+      "stats"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-config-cycle",
+    "skill_b": "hl-shadow-conversation-cycle",
+    "overlap": 18,
+    "pct": 81.8,
+    "shared": [
+      "bundle",
+      "check",
+      "cycle",
+      "expectations",
+      "headless",
+      "needs",
+      "outputs",
+      "peer-sync"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "gc-canvas-viz",
+    "overlap": 13,
+    "pct": 76.5,
+    "shared": [
+      "canvas",
+      "canvas-based",
+      "codex",
+      "design",
+      "generating",
+      "graphs",
+      "maps",
+      "network"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "shadowtech-design-system",
+    "overlap": 13,
+    "pct": 76.5,
+    "shared": [
+      "brand",
+      "building",
+      "design",
+      "html",
+      "needs",
+      "official",
+      "output",
+      "patterns"
+    ]
+  },
+  {
+    "skill_a": "gc-canvas-viz",
+    "skill_b": "shadowtech-canvas-viz",
+    "overlap": 13,
+    "pct": 76.5,
+    "shared": [
+      "canvas",
+      "canvas-based",
+      "design",
+      "diagrams",
+      "flow",
+      "generating",
+      "graphs",
+      "maps"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "shadowtech-canvas-viz",
+    "overlap": 13,
+    "pct": 72.2,
+    "shared": [
+      "canvas",
+      "canvas-based",
+      "design",
+      "generating",
+      "graphs",
+      "interactive",
+      "maps",
+      "network"
+    ]
+  },
+  {
+    "skill_a": "github-cli-token-ops",
+    "skill_b": "gog-cli",
+    "overlap": 15,
+    "pct": 68.2,
+    "shared": [
+      "account",
+      "automating",
+      "cli",
+      "commands",
+      "different",
+      "multi-account",
+      "non-default",
+      "operations"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "shadowtech-html-page",
+    "overlap": 10,
+    "pct": 66.7,
+    "shared": [
+      "dashboards",
+      "design",
+      "following",
+      "generating",
+      "html",
+      "page",
+      "standalone",
+      "system"
+    ]
+  },
+  {
+    "skill_a": "command-center",
+    "skill_b": "mesh-context",
+    "overlap": 10,
+    "pct": 66.7,
+    "shared": [
+      "across",
+      "aurion",
+      "friday",
+      "from",
+      "jarvis",
+      "mesh",
+      "needs",
+      "ultron"
+    ]
+  },
+  {
+    "skill_a": "mesh-context",
+    "skill_b": "mesh-scanner",
+    "overlap": 10,
+    "pct": 66.7,
+    "shared": [
+      "across",
+      "aurion",
+      "friday",
+      "jarvis",
+      "mesh",
+      "needs",
+      "network",
+      "ultron"
+    ]
+  },
+  {
+    "skill_a": "fh4s-change-point-update",
+    "skill_b": "fh4s-meeting-prep",
+    "overlap": 13,
+    "pct": 61.9,
+    "shared": [
+      "auto-sets",
+      "base",
+      "cross-program",
+      "fh4s",
+      "fh4s-configured",
+      "meeting",
+      "prefer",
+      "program"
+    ]
+  },
+  {
+    "skill_a": "elixir-escript-mise",
+    "skill_b": "launchd-mise-service",
+    "overlap": 11,
+    "pct": 61.1,
+    "shared": [
+      "binary",
+      "crashes",
+      "erlexec",
+      "escript",
+      "fails",
+      "found",
+      "launchd",
+      "mise"
+    ]
+  },
+  {
+    "skill_a": "fh4s-change-point-update",
+    "skill_b": "fh4s-ingest",
+    "overlap": 11,
+    "pct": 61.1,
+    "shared": [
+      "auto-sets",
+      "base",
+      "cross-program",
+      "fh4s",
+      "fh4s-configured",
+      "prefer",
+      "program",
+      "shortcut"
+    ]
+  },
+  {
+    "skill_a": "fh4s-ingest",
+    "skill_b": "fh4s-meeting-prep",
+    "overlap": 11,
+    "pct": 61.1,
+    "shared": [
+      "auto-sets",
+      "base",
+      "cross-program",
+      "fh4s",
+      "fh4s-configured",
+      "prefer",
+      "program",
+      "shortcut"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "gc-html-page",
+    "overlap": 9,
+    "pct": 60.0,
+    "shared": [
+      "codex",
+      "design",
+      "following",
+      "generating",
+      "html",
+      "page",
+      "standalone",
+      "system"
+    ]
+  },
+  {
+    "skill_a": "intelligence-report",
+    "skill_b": "shadow-report-externalization",
+    "overlap": 6,
+    "pct": 60.0,
+    "shared": [
+      "data",
+      "from",
+      "generating",
+      "report",
+      "structured",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "mesh-audit",
+    "skill_b": "mesh-context",
+    "overlap": 9,
+    "pct": 60.0,
+    "shared": [
+      "across",
+      "aurion",
+      "friday",
+      "jarvis",
+      "mesh",
+      "network",
+      "ultron",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "shadow-os-skills",
+    "skill_b": "shadow-smt-health",
+    "overlap": 6,
+    "pct": 60.0,
+    "shared": [
+      "mesh",
+      "needs",
+      "services",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "craft-surface-router",
+    "skill_b": "craft-widget-kit",
+    "overlap": 20,
+    "pct": 58.8,
+    "shared": [
+      "agent",
+      "agents",
+      "cards",
+      "craft",
+      "datatable",
+      "designing",
+      "handoffs",
+      "html-preview"
+    ]
+  },
+  {
+    "skill_a": "astemo-meeting-prep",
+    "skill_b": "fh4s-meeting-prep",
+    "overlap": 12,
+    "pct": 57.1,
+    "shared": [
+      "agenda",
+      "cross-program",
+      "department",
+      "fh4s",
+      "meeting",
+      "meetings",
+      "prep",
+      "prepare"
+    ]
+  },
+  {
+    "skill_a": "astemo-design-system",
+    "skill_b": "astemo-md-mmd-design-system",
+    "overlap": 10,
+    "pct": 55.6,
+    "shared": [
+      "anatomy",
+      "astemo",
+      "brand",
+      "design",
+      "rules",
+      "shell",
+      "system",
+      "tokens"
+    ]
+  },
+  {
+    "skill_a": "astemo-colleague-attunement",
+    "skill_b": "bryan-voris-communication",
+    "overlap": 11,
+    "pct": 55.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "program",
+      "role"
+    ]
+  },
+  {
+    "skill_a": "astemo-colleague-attunement",
+    "skill_b": "ghen-takahashi-communication",
+    "overlap": 11,
+    "pct": 55.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "program",
+      "role"
+    ]
+  },
+  {
+    "skill_a": "astemo-colleague-attunement",
+    "skill_b": "kevin-butler-communication",
+    "overlap": 11,
+    "pct": 55.0,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "program",
+      "role"
+    ]
+  },
+  {
+    "skill_a": "github-cli-token-ops",
+    "skill_b": "github-ops",
+    "overlap": 6,
+    "pct": 54.5,
+    "shared": [
+      "automating",
+      "github",
+      "issue",
+      "operations",
+      "ops",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "data-dashboard",
+    "overlap": 7,
+    "pct": 53.8,
+    "shared": [
+      "charts",
+      "dashboard",
+      "design",
+      "generating",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "hl-cost-tracking",
+    "skill_b": "hl-session-tracking",
+    "overlap": 7,
+    "pct": 53.8,
+    "shared": [
+      "needs",
+      "subscription",
+      "track",
+      "tracking",
+      "usage",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "mesh-context",
+    "skill_b": "mesh-ops",
+    "overlap": 8,
+    "pct": 53.3,
+    "shared": [
+      "aurion",
+      "friday",
+      "jarvis",
+      "mesh",
+      "needs",
+      "ultron",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "design-system",
+    "overlap": 9,
+    "pct": 52.9,
+    "shared": [
+      "brand",
+      "codex",
+      "design",
+      "html",
+      "needs",
+      "system",
+      "user",
+      "visualization"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "gc-design-system",
+    "overlap": 9,
+    "pct": 52.9,
+    "shared": [
+      "building",
+      "codex",
+      "design",
+      "needs",
+      "patterns",
+      "system",
+      "tokens",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "omarchy-design-system",
+    "overlap": 9,
+    "pct": 52.9,
+    "shared": [
+      "building",
+      "design",
+      "html",
+      "needs",
+      "output",
+      "system",
+      "user",
+      "visualization"
+    ]
+  },
+  {
+    "skill_a": "echo-loop",
+    "skill_b": "shadow-trmnl",
+    "overlap": 9,
+    "pct": 52.9,
+    "shared": [
+      "check",
+      "device",
+      "echo",
+      "needs",
+      "push",
+      "status",
+      "trigger",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "gc-design-system",
+    "skill_b": "shadowtech-design-system",
+    "overlap": 9,
+    "pct": 52.9,
+    "shared": [
+      "aesthetic",
+      "building",
+      "design",
+      "needs",
+      "patterns",
+      "system",
+      "tokens",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo-dropbox",
+    "skill_b": "hl-dropbox",
+    "overlap": 10,
+    "pct": 52.6,
+    "shared": [
+      "astemo",
+      "config",
+      "cross-device",
+      "dropbox",
+      "file",
+      "needs",
+      "portable",
+      "sync"
+    ]
+  },
+  {
+    "skill_a": "astemo-colleague-attunement",
+    "skill_b": "hosoya-haruyasu-communication",
+    "overlap": 11,
+    "pct": 52.4,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "program",
+      "role"
+    ]
+  },
+  {
+    "skill_a": "astemo-colleague-attunement",
+    "skill_b": "miki-cross-communication",
+    "overlap": 11,
+    "pct": 52.4,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "program",
+      "role"
+    ]
+  },
+  {
+    "skill_a": "astemo-colleague-attunement",
+    "skill_b": "ryoko-schaefer-communication",
+    "overlap": 11,
+    "pct": 52.4,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "program",
+      "role"
+    ]
+  },
+  {
+    "skill_a": "astemo-colleague-attunement",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 11,
+    "pct": 52.4,
+    "shared": [
+      "adapting",
+      "analyzing",
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "program",
+      "role"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-automation",
+    "skill_b": "hl-shadow-launchd",
+    "overlap": 11,
+    "pct": 52.4,
+    "shared": [
+      "config",
+      "conversation",
+      "cycles",
+      "headless",
+      "install",
+      "launchd",
+      "needs",
+      "shadow"
+    ]
+  },
+  {
+    "skill_a": "astemo-change-point-update",
+    "skill_b": "fh4s-change-point-update",
+    "overlap": 12,
+    "pct": 52.2,
+    "shared": [
+      "change",
+      "cross-program",
+      "fh4s",
+      "meeting",
+      "point",
+      "points",
+      "program",
+      "this"
+    ]
+  },
+  {
+    "skill_a": "shadow-intel",
+    "skill_b": "x-research",
+    "overlap": 12,
+    "pct": 52.2,
+    "shared": [
+      "analysis",
+      "claim",
+      "intelligence",
+      "mapping",
+      "monitoring",
+      "network",
+      "topic",
+      "tracking"
+    ]
+  },
+  {
+    "skill_a": "mesh-audit",
+    "skill_b": "mesh-scanner",
+    "overlap": 14,
+    "pct": 51.9,
+    "shared": [
+      "across",
+      "auditing",
+      "aurion",
+      "devices",
+      "friday",
+      "jarvis",
+      "mesh",
+      "network"
+    ]
+  },
+  {
+    "skill_a": "astemo-change-point-update",
+    "skill_b": "astemo-meeting-prep",
+    "overlap": 17,
+    "pct": 51.5,
+    "shared": [
+      "astemo",
+      "astemo-work-context",
+      "cross-program",
+      "fh4l",
+      "fh4s",
+      "meeting",
+      "meetings",
+      "notes"
+    ]
+  },
+  {
+    "skill_a": "acp-delegate-auto",
+    "skill_b": "hl-task-routing",
+    "overlap": 6,
+    "pct": 50.0,
+    "shared": [
+      "based",
+      "best",
+      "provider",
+      "task",
+      "type",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "acp-delegate-auto",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "mesh",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-excel-online",
+    "skill_b": "hl-excel-online",
+    "overlap": 16,
+    "pct": 50.0,
+    "shared": [
+      "automation",
+      "browser",
+      "excel",
+      "excel online",
+      "headless",
+      "needs",
+      "online",
+      "open"
+    ]
+  },
+  {
+    "skill_a": "cc-component",
+    "skill_b": "gc-component",
+    "overlap": 7,
+    "pct": 50.0,
+    "shared": [
+      "codex",
+      "component",
+      "components",
+      "design",
+      "following",
+      "generating",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "command-center",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "health",
+      "mesh",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "data-dashboard",
+    "skill_b": "shadow-report-externalization",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "data",
+      "from",
+      "generating",
+      "shadow",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gc-html-page",
+    "skill_b": "shadowtech-html-page",
+    "overlap": 8,
+    "pct": 50.0,
+    "shared": [
+      "design",
+      "following",
+      "generating",
+      "html",
+      "page",
+      "standalone",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-skillmesh",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "mesh",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-trmnl",
+    "skill_b": "shadow-trmnl",
+    "overlap": 19,
+    "pct": 50.0,
+    "shared": [
+      "check",
+      "control",
+      "device",
+      "display",
+      "e-paper",
+      "generate",
+      "images",
+      "kernel"
+    ]
+  },
+  {
+    "skill_a": "iterm-mesh",
+    "skill_b": "shadow-term",
+    "overlap": 16,
+    "pct": 50.0,
+    "shared": [
+      "config",
+      "iterm",
+      "iterm2",
+      "managing",
+      "open",
+      "open terminal",
+      "pane",
+      "panes"
+    ]
+  },
+  {
+    "skill_a": "mesh-audit",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "health",
+      "mesh",
+      "services",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "mesh-ops",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "health",
+      "mesh",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "mesh-scanner",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "mesh",
+      "needs",
+      "services",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "nnn-cli",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "mesh",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "omarchy-design-system",
+    "skill_b": "shadowtech-design-system",
+    "overlap": 11,
+    "pct": 50.0,
+    "shared": [
+      "building",
+      "design",
+      "html",
+      "needs",
+      "output",
+      "should",
+      "system",
+      "that"
+    ]
+  },
+  {
+    "skill_a": "oracle-cloud",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "health",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "request-refactor-plan",
+    "skill_b": "to-prd",
+    "overlap": 7,
+    "pct": 50.0,
+    "shared": [
+      "create",
+      "github",
+      "into",
+      "issue",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-connect",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "mesh",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-mind",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "health",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-pm",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "mesh",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-research-factory",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "mesh",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-secure",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "mesh",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-self-healing-services",
+    "skill_b": "shadow-service-discovery",
+    "overlap": 6,
+    "pct": 50.0,
+    "shared": [
+      "launchagent",
+      "needs",
+      "service",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-self-healing-services",
+    "skill_b": "shadow-smt-health",
+    "overlap": 5,
+    "pct": 50.0,
+    "shared": [
+      "needs",
+      "services",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadowtech-canvas-viz",
+    "skill_b": "shadowtech-html-page",
+    "overlap": 14,
+    "pct": 50.0,
+    "shared": [
+      "accent",
+      "agent",
+      "backgrounds",
+      "black",
+      "deep",
+      "design",
+      "fleet",
+      "generating"
+    ]
+  },
+  {
+    "skill_a": "shadowtech-design-system",
+    "skill_b": "shadowtech-html-page",
+    "overlap": 14,
+    "pct": 50.0,
+    "shared": [
+      "agent",
+      "cards",
+      "dashboards",
+      "deep",
+      "design",
+      "fleet",
+      "glassmorphism",
+      "html"
+    ]
+  },
+  {
+    "skill_a": "to-prd",
+    "skill_b": "ubiquitous-language",
+    "overlap": 7,
+    "pct": 50.0,
+    "shared": [
+      "conversation",
+      "create",
+      "current",
+      "from",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "fh4s-honda-response",
+    "skill_b": "m3-honda-agent",
+    "overlap": 12,
+    "pct": 48.0,
+    "shared": [
+      "bilingual",
+      "change",
+      "customer",
+      "honda",
+      "materials",
+      "point",
+      "presentation",
+      "response"
+    ]
+  },
+  {
+    "skill_a": "astemo-colleague-attunement",
+    "skill_b": "sabarish-communication-style",
+    "overlap": 11,
+    "pct": 47.8,
+    "shared": [
+      "astemo",
+      "colleague",
+      "communication",
+      "drafting",
+      "email",
+      "from",
+      "message",
+      "messages"
+    ]
+  },
+  {
+    "skill_a": "fh4s-change-point-update",
+    "skill_b": "fh4s-honda-response",
+    "overlap": 11,
+    "pct": 47.8,
+    "shared": [
+      "change",
+      "data",
+      "email",
+      "fh4s",
+      "point",
+      "points",
+      "program",
+      "tracker"
+    ]
+  },
+  {
+    "skill_a": "astemo-program-context",
+    "skill_b": "astemo-work-context",
+    "overlap": 10,
+    "pct": 47.6,
+    "shared": [
+      "astemo",
+      "context",
+      "needs",
+      "program",
+      "role",
+      "task",
+      "trigger",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "echo-loop",
+    "skill_b": "hl-trmnl",
+    "overlap": 8,
+    "pct": 47.1,
+    "shared": [
+      "check",
+      "device",
+      "needs",
+      "push",
+      "status",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-animation",
+    "skill_b": "gc-animation",
+    "overlap": 7,
+    "pct": 46.7,
+    "shared": [
+      "adding",
+      "animation",
+      "animations",
+      "codex",
+      "status",
+      "style",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "design-system",
+    "overlap": 7,
+    "pct": 46.7,
+    "shared": [
+      "codex",
+      "dashboards",
+      "design",
+      "html",
+      "page",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "mesh-context",
+    "skill_b": "nnn-cli",
+    "overlap": 7,
+    "pct": 46.7,
+    "shared": [
+      "across",
+      "from",
+      "mesh",
+      "needs",
+      "network",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "cc-dashboard",
+    "overlap": 6,
+    "pct": 46.2,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "gc-component",
+    "overlap": 6,
+    "pct": 46.2,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "indicators",
+      "status",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "gc-html-page",
+    "overlap": 6,
+    "pct": 46.2,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "shadowtech-html-page",
+    "overlap": 6,
+    "pct": 46.2,
+    "shared": [
+      "design",
+      "generating",
+      "panels",
+      "status",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cost-tracking",
+    "skill_b": "hl-subscription-maximize",
+    "overlap": 6,
+    "pct": 46.2,
+    "shared": [
+      "needs",
+      "prepaid",
+      "recurring",
+      "subscription",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "m3-drawing-agent",
+    "skill_b": "m3-tracker-agent",
+    "overlap": 12,
+    "pct": 46.2,
+    "shared": [
+      "agent",
+      "lookup",
+      "needs",
+      "number",
+      "numbers",
+      "queries",
+      "status",
+      "tracker"
+    ]
+  },
+  {
+    "skill_a": "hl-auth-priority",
+    "skill_b": "m365-auth",
+    "overlap": 5,
+    "pct": 45.5,
+    "shared": [
+      "auth",
+      "instead",
+      "single",
+      "source",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "request-refactor-plan",
+    "skill_b": "triage-issue",
+    "overlap": 10,
+    "pct": 45.5,
+    "shared": [
+      "create",
+      "file",
+      "github",
+      "issue",
+      "plan",
+      "then",
+      "user",
+      "wants"
+    ]
+  },
+  {
+    "skill_a": "shadow-self-healing-systemd",
+    "skill_b": "shadow-service-discovery",
+    "overlap": 5,
+    "pct": 45.5,
+    "shared": [
+      "needs",
+      "service",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-pipeline",
+    "skill_b": "shadow-research-factory",
+    "overlap": 9,
+    "pct": 45.0,
+    "shared": [
+      "connects",
+      "data",
+      "model",
+      "needs",
+      "pipeline",
+      "shadow-research",
+      "training",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "bryan-voris-communication",
+    "skill_b": "hayakawa-communication",
+    "overlap": 9,
+    "pct": 45.0,
+    "shared": [
+      "analyzing",
+      "communication",
+      "drafting",
+      "email",
+      "especially",
+      "replying",
+      "teams",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "ghen-takahashi-communication",
+    "skill_b": "hayakawa-communication",
+    "overlap": 9,
+    "pct": 45.0,
+    "shared": [
+      "analyzing",
+      "communication",
+      "drafting",
+      "email",
+      "especially",
+      "replying",
+      "teams",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hayakawa-communication",
+    "skill_b": "kevin-butler-communication",
+    "overlap": 9,
+    "pct": 45.0,
+    "shared": [
+      "analyzing",
+      "communication",
+      "drafting",
+      "email",
+      "especially",
+      "replying",
+      "teams",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "research-bridge",
+    "skill_b": "shadow-research-factory",
+    "overlap": 11,
+    "pct": 44.0,
+    "shared": [
+      "checking",
+      "loop",
+      "pipeline",
+      "ralph-loop",
+      "research",
+      "reviewing",
+      "shadow-research",
+      "status"
+    ]
+  },
+  {
+    "skill_a": "astemo-teams",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 7,
+    "pct": 43.8,
+    "shared": [
+      "browser",
+      "context",
+      "headless",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-audit",
+    "skill_b": "hl-shadowsecure",
+    "overlap": 7,
+    "pct": 43.8,
+    "shared": [
+      "audit",
+      "check",
+      "exposure",
+      "inventory",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "copilot-canvas-renderer",
+    "skill_b": "gc-html-page",
+    "overlap": 7,
+    "pct": 43.8,
+    "shared": [
+      "colors",
+      "design",
+      "page",
+      "semantic",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "gc-design-system",
+    "skill_b": "gc-html-page",
+    "overlap": 7,
+    "pct": 43.8,
+    "shared": [
+      "aesthetic",
+      "codex",
+      "design",
+      "openai",
+      "semantic",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gh-recent",
+    "skill_b": "re-skill-loop",
+    "overlap": 10,
+    "pct": 43.5,
+    "shared": [
+      "browser",
+      "from",
+      "github",
+      "history",
+      "re-skill",
+      "recent",
+      "says",
+      "shadow-extract"
+    ]
+  },
+  {
+    "skill_a": "cc-component",
+    "skill_b": "cc-html-page",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "codex",
+      "design",
+      "following",
+      "generating",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-component",
+    "skill_b": "data-dashboard",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "cards",
+      "design",
+      "generating",
+      "system",
+      "tooltips",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-component",
+    "skill_b": "design-system",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "codex",
+      "component",
+      "components",
+      "design",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-component",
+    "skill_b": "gc-html-page",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "codex",
+      "design",
+      "following",
+      "generating",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-component",
+    "skill_b": "shadowtech-html-page",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "cards",
+      "design",
+      "following",
+      "generating",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gc-component",
+    "skill_b": "gc-dashboard",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "indicators",
+      "status",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gc-dashboard",
+    "skill_b": "shadow-cast-cli",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "codex",
+      "output",
+      "panels",
+      "status",
+      "terminal",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gc-dashboard",
+    "skill_b": "shadowtech-html-page",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "design",
+      "generating",
+      "panels",
+      "status",
+      "terminal",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "github-skill",
+    "skill_b": "to-prd",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "context",
+      "github",
+      "into",
+      "turning",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "github-triage",
+    "skill_b": "to-prd",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "create",
+      "github",
+      "issue",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hayakawa-communication",
+    "skill_b": "hosoya-haruyasu-communication",
+    "overlap": 9,
+    "pct": 42.9,
+    "shared": [
+      "analyzing",
+      "communication",
+      "drafting",
+      "email",
+      "especially",
+      "replying",
+      "teams",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hayakawa-communication",
+    "skill_b": "miki-cross-communication",
+    "overlap": 9,
+    "pct": 42.9,
+    "shared": [
+      "analyzing",
+      "communication",
+      "drafting",
+      "email",
+      "especially",
+      "replying",
+      "teams",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hayakawa-communication",
+    "skill_b": "ryoko-schaefer-communication",
+    "overlap": 9,
+    "pct": 42.9,
+    "shared": [
+      "analyzing",
+      "communication",
+      "drafting",
+      "email",
+      "especially",
+      "replying",
+      "teams",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hayakawa-communication",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 9,
+    "pct": 42.9,
+    "shared": [
+      "analyzing",
+      "communication",
+      "drafting",
+      "email",
+      "especially",
+      "replying",
+      "teams",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-session-tracking",
+    "skill_b": "hl-subscription-research",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "analysis",
+      "needs",
+      "subscription",
+      "tracking",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-cache",
+    "skill_b": "hl-shadow-launchd",
+    "overlap": 9,
+    "pct": 42.9,
+    "shared": [
+      "config",
+      "current",
+      "headless",
+      "needs",
+      "shadow",
+      "that",
+      "this",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "to-issues",
+    "skill_b": "to-prd",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "create",
+      "github",
+      "into",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "to-prd",
+    "skill_b": "triage-issue",
+    "overlap": 6,
+    "pct": 42.9,
+    "shared": [
+      "create",
+      "github",
+      "issue",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "naming-conventions",
+    "skill_b": "operator-patterns",
+    "overlap": 8,
+    "pct": 42.1,
+    "shared": [
+      "apply",
+      "automatically",
+      "just",
+      "never",
+      "session",
+      "these",
+      "trigger",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-setup",
+    "skill_b": "clawhip",
+    "overlap": 5,
+    "pct": 41.7,
+    "shared": [
+      "gateway",
+      "install",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-break-even",
+    "skill_b": "hl-value-ratio",
+    "overlap": 5,
+    "pct": 41.7,
+    "shared": [
+      "actual",
+      "calculating",
+      "from",
+      "value",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-sharepoint",
+    "skill_b": "sp-crawl",
+    "overlap": 10,
+    "pct": 41.7,
+    "shared": [
+      "browser",
+      "files",
+      "needs",
+      "playwright",
+      "rest",
+      "search",
+      "sharepoint",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "shadow-os-skills",
+    "skill_b": "shadow-self-healing-services",
+    "overlap": 5,
+    "pct": 41.7,
+    "shared": [
+      "needs",
+      "services",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-self-healing-services",
+    "skill_b": "template-surface-router",
+    "overlap": 5,
+    "pct": 41.7,
+    "shared": [
+      "issues",
+      "service",
+      "services",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "echo-loop",
+    "skill_b": "fh4s-drawing-check",
+    "overlap": 7,
+    "pct": 41.2,
+    "shared": [
+      "check",
+      "needs",
+      "status",
+      "trigger",
+      "user",
+      "verify",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "langgraph-agent",
+    "skill_b": "write-a-skill",
+    "overlap": 7,
+    "pct": 41.2,
+    "shared": [
+      "agent",
+      "build",
+      "skill",
+      "user",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "mesh-ops",
+    "skill_b": "mesh-scanner",
+    "overlap": 11,
+    "pct": 40.7,
+    "shared": [
+      "aurion",
+      "fleet",
+      "friday",
+      "jarvis",
+      "mesh",
+      "needs",
+      "openclaw",
+      "scan"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "shadow-code-identity",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "across",
+      "boundaries",
+      "context",
+      "enterprise",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo-calendar",
+    "skill_b": "meeting-check",
+    "overlap": 8,
+    "pct": 40.0,
+    "shared": [
+      "calendar",
+      "check",
+      "context",
+      "meeting",
+      "meetings",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-hl",
+    "skill_b": "astemo-pipeline",
+    "overlap": 8,
+    "pct": 40.0,
+    "shared": [
+      "astemo",
+      "enterprise",
+      "extraction",
+      "headless",
+      "m365",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-onedrive",
+    "skill_b": "hl-sharepoint",
+    "overlap": 12,
+    "pct": 40.0,
+    "shared": [
+      "automation",
+      "browse",
+      "docs",
+      "download",
+      "files",
+      "headless",
+      "needs",
+      "search"
+    ]
+  },
+  {
+    "skill_a": "astemo-onedrive",
+    "skill_b": "obsidian-vault",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "find",
+      "needs",
+      "search",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "astemo-pipeline",
+    "skill_b": "hl-m365",
+    "overlap": 8,
+    "pct": 40.0,
+    "shared": [
+      "astemo",
+      "enterprise",
+      "extraction",
+      "headless",
+      "m365",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-pipeline",
+    "skill_b": "shadow-anchor",
+    "overlap": 8,
+    "pct": 40.0,
+    "shared": [
+      "kernel",
+      "needs",
+      "pairs",
+      "pipeline",
+      "shadow-research",
+      "training",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-teams",
+    "skill_b": "meeting-check",
+    "overlap": 8,
+    "pct": 40.0,
+    "shared": [
+      "check",
+      "context",
+      "meeting",
+      "needs",
+      "recaps",
+      "transcripts",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bryan-voris-communication",
+    "skill_b": "sabarish-communication-style",
+    "overlap": 8,
+    "pct": 40.0,
+    "shared": [
+      "astemo",
+      "bryan",
+      "communication",
+      "drafting",
+      "email",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "cc-html-page",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "codex",
+      "design",
+      "html",
+      "output",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "shadowtech-design-system",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "dashboards",
+      "design",
+      "html",
+      "output",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "focus-sync",
+    "skill_b": "shadow-code-identity",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "context",
+      "detecting",
+      "personal",
+      "when",
+      "work",
+      "zone"
+    ]
+  },
+  {
+    "skill_a": "hl-calendar",
+    "skill_b": "meeting-check",
+    "overlap": 8,
+    "pct": 40.0,
+    "shared": [
+      "calendar",
+      "check",
+      "extract",
+      "meetings",
+      "needs",
+      "upcoming",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "kevin-butler-communication",
+    "skill_b": "sabarish-communication-style",
+    "overlap": 8,
+    "pct": 40.0,
+    "shared": [
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "kevin",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "mesh-context",
+    "skill_b": "shadow-pm",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "across",
+      "mesh",
+      "needs",
+      "project",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "shadowpedia",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "find",
+      "needs",
+      "search",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "slack",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "find",
+      "needs",
+      "search",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "triage-issue",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "create",
+      "find",
+      "user",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "shadow-code-identity",
+    "skill_b": "shadow-connect",
+    "overlap": 6,
+    "pct": 40.0,
+    "shared": [
+      "context",
+      "enterprise",
+      "personal",
+      "shadow",
+      "when",
+      "zone"
+    ]
+  },
+  {
+    "skill_a": "shadow-trmnl",
+    "skill_b": "xteink-firmware",
+    "overlap": 10,
+    "pct": 40.0,
+    "shared": [
+      "device",
+      "e-paper",
+      "firmware",
+      "manage",
+      "needs",
+      "trigger",
+      "trmnl",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo-calendar",
+    "skill_b": "hl-calendar",
+    "overlap": 13,
+    "pct": 39.4,
+    "shared": [
+      "automation",
+      "calendar",
+      "check",
+      "headless",
+      "meetings",
+      "meetings today",
+      "needs",
+      "outlook"
+    ]
+  },
+  {
+    "skill_a": "astemo-hl",
+    "skill_b": "hl-sharepoint",
+    "overlap": 13,
+    "pct": 39.4,
+    "shared": [
+      "automation",
+      "docs",
+      "documents",
+      "download",
+      "download from sharepoint",
+      "from",
+      "headless",
+      "needs"
+    ]
+  },
+  {
+    "skill_a": "hl-calendar",
+    "skill_b": "hl-sharepoint",
+    "overlap": 13,
+    "pct": 39.4,
+    "shared": [
+      "automation",
+      "browser",
+      "cookie",
+      "export",
+      "fallback",
+      "headless",
+      "invisible",
+      "needs"
+    ]
+  },
+  {
+    "skill_a": "hl-m365",
+    "skill_b": "hl-sharepoint",
+    "overlap": 13,
+    "pct": 39.4,
+    "shared": [
+      "automation",
+      "docs",
+      "documents",
+      "download",
+      "download from sharepoint",
+      "from",
+      "headless",
+      "needs"
+    ]
+  },
+  {
+    "skill_a": "gh-recent",
+    "skill_b": "reddit-recent-extract",
+    "overlap": 9,
+    "pct": 39.1,
+    "shared": [
+      "asks",
+      "from",
+      "history",
+      "re-skill",
+      "recent",
+      "shadow-extract",
+      "user",
+      "using"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-automation",
+    "skill_b": "hl-shadow-cache",
+    "overlap": 9,
+    "pct": 39.1,
+    "shared": [
+      "cache",
+      "config",
+      "headless",
+      "needs",
+      "promotion",
+      "shadow",
+      "this",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo-ingest",
+    "skill_b": "fh4s-ingest",
+    "overlap": 7,
+    "pct": 38.9,
+    "shared": [
+      "cross-program",
+      "fh4s",
+      "files",
+      "ingest",
+      "organize",
+      "program",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "data-dashboard",
+    "overlap": 7,
+    "pct": 38.9,
+    "shared": [
+      "canvas",
+      "design",
+      "generating",
+      "interactive",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "shadow-relay-agent",
+    "skill_b": "shadow-traces",
+    "overlap": 7,
+    "pct": 38.9,
+    "shared": [
+      "agent",
+      "context",
+      "needs",
+      "session",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-component",
+    "skill_b": "cc-dashboard",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "cc-design-system",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "codex",
+      "design",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "cc-html-page",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "copilot-canvas-renderer",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "design",
+      "status",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "design-system",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "codex",
+      "dashboard",
+      "design",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "gc-canvas-viz",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-dashboard",
+    "skill_b": "shadowtech-canvas-viz",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "design",
+      "generating",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "design-system",
+    "skill_b": "shadowtech-design-system",
+    "overlap": 10,
+    "pct": 38.5,
+    "shared": [
+      "brand",
+      "dashboards",
+      "design",
+      "html",
+      "needs",
+      "shadowtech",
+      "system",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "fh4s-context",
+    "skill_b": "m3-tracker-agent",
+    "overlap": 10,
+    "pct": 38.5,
+    "shared": [
+      "change",
+      "change point",
+      "fh4s",
+      "needs",
+      "numbers",
+      "part",
+      "point",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "fh4s-drawing-check",
+    "skill_b": "m3-tracker-agent",
+    "overlap": 10,
+    "pct": 38.5,
+    "shared": [
+      "change",
+      "fh4s",
+      "needs",
+      "part",
+      "point",
+      "status",
+      "tracker",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "friday-hud",
+    "skill_b": "mcp-dashboard-skin",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "building",
+      "dashboards",
+      "interfaces",
+      "monitoring",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-chatgpt",
+    "skill_b": "hl-subscription-maximize",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "needs",
+      "subscription",
+      "user",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "hl-cost-tracking",
+    "skill_b": "hl-cursor-session-hooks",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "needs",
+      "prepaid",
+      "tracking",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cost-tracking",
+    "skill_b": "hl-subscription-research",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "needs",
+      "subscription",
+      "tracking",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cost-tracking",
+    "skill_b": "shadow-copilot",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "needs",
+      "tracking",
+      "usage",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cursor-session-hooks",
+    "skill_b": "hl-hook-resilience",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "hook",
+      "hooks",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cursor-session-hooks",
+    "skill_b": "hl-provider-id-normalization",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "logs",
+      "needs",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-provider-id-normalization",
+    "skill_b": "self-observation-loop",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "logs",
+      "needs",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-session-tracking",
+    "skill_b": "hl-subscription-maximize",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "needs",
+      "subscription",
+      "user",
+      "value",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-maximize",
+    "skill_b": "pptx-visual-validation",
+    "overlap": 5,
+    "pct": 38.5,
+    "shared": [
+      "needs",
+      "right",
+      "routing",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "m3-supplier-agent",
+    "skill_b": "m3-tracker-agent",
+    "overlap": 10,
+    "pct": 38.5,
+    "shared": [
+      "agent",
+      "analysis",
+      "change",
+      "detection",
+      "names",
+      "needs",
+      "risk",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "caveman-commit",
+    "skill_b": "caveman-review",
+    "overlap": 13,
+    "pct": 38.2,
+    "shared": [
+      "auto-triggers",
+      "caveman",
+      "cuts",
+      "from",
+      "invokes",
+      "needs",
+      "noise",
+      "preserving"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "astemo-program-context",
+    "overlap": 8,
+    "pct": 38.1,
+    "shared": [
+      "astemo",
+      "context",
+      "needs",
+      "prefer",
+      "program",
+      "routing",
+      "task",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-change-point-update",
+    "skill_b": "fh4s-meeting-prep",
+    "overlap": 8,
+    "pct": 38.1,
+    "shared": [
+      "cross-program",
+      "fh4s",
+      "meeting",
+      "meetings",
+      "program",
+      "this",
+      "tracker",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-config-cycle",
+    "skill_b": "hl-shadow-launchd",
+    "overlap": 8,
+    "pct": 38.1,
+    "shared": [
+      "config",
+      "expectations",
+      "headless",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-conversation-cycle",
+    "skill_b": "hl-shadow-launchd",
+    "overlap": 8,
+    "pct": 38.1,
+    "shared": [
+      "conversation",
+      "expectations",
+      "headless",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "request-refactor-plan",
+    "skill_b": "to-issues",
+    "overlap": 8,
+    "pct": 38.1,
+    "shared": [
+      "break",
+      "create",
+      "github",
+      "into",
+      "plan",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-ingest",
+    "skill_b": "astemo-project-schema",
+    "overlap": 9,
+    "pct": 37.5,
+    "shared": [
+      "astemo",
+      "fh4l",
+      "fh4s",
+      "folder",
+      "program",
+      "structure",
+      "when",
+      "xp7g"
+    ]
+  },
+  {
+    "skill_a": "astemo-onedrive",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "context",
+      "headless",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee",
+    "skill_b": "bee-audit",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "audit",
+      "bee",
+      "needs",
+      "privacy",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-audit",
+    "skill_b": "hl-shadowprivacy",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "exposure",
+      "inventory",
+      "needs",
+      "privacy",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "gc-html-page",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "gc-html-page",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "codex",
+      "design",
+      "html",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "data-dashboard",
+    "skill_b": "gc-html-page",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "design",
+      "generating",
+      "html",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "design-system",
+    "skill_b": "gc-html-page",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "codex",
+      "design",
+      "html",
+      "page",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-safari-tabs",
+    "skill_b": "hl-sharepoint",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "browser",
+      "headless",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-safari-tabs",
+    "skill_b": "slack",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "browser",
+      "needs",
+      "search",
+      "user",
+      "using",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadowprivacy",
+    "skill_b": "hl-shadowsecure",
+    "overlap": 18,
+    "pct": 37.5,
+    "shared": [
+      "endpoints",
+      "exposure",
+      "good",
+      "headless",
+      "helper",
+      "inventory",
+      "like",
+      "needs"
+    ]
+  },
+  {
+    "skill_a": "reddit-recent-extract",
+    "skill_b": "reference-chain",
+    "overlap": 9,
+    "pct": 37.5,
+    "shared": [
+      "before",
+      "current",
+      "from",
+      "re-skill",
+      "recent",
+      "shadow-extract",
+      "source",
+      "that"
+    ]
+  },
+  {
+    "skill_a": "shadow-airplay-skill",
+    "skill_b": "yt-recent-insights",
+    "overlap": 6,
+    "pct": 37.5,
+    "shared": [
+      "apple",
+      "devices",
+      "from",
+      "skill",
+      "videos",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadowarchive-storage-ops",
+    "skill_b": "storage-ops",
+    "overlap": 9,
+    "pct": 37.5,
+    "shared": [
+      "audit",
+      "cleanup",
+      "move",
+      "needs",
+      "offload",
+      "ops",
+      "storage",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "astemo-work-context",
+    "overlap": 10,
+    "pct": 37.0,
+    "shared": [
+      "across",
+      "astemo",
+      "context",
+      "meeting",
+      "needs",
+      "program",
+      "skills",
+      "task"
+    ]
+  },
+  {
+    "skill_a": "astemo-calendar",
+    "skill_b": "hl-dropbox",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "astemo",
+      "automation",
+      "headless",
+      "needs",
+      "sync",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-hl",
+    "skill_b": "hl-dropbox",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "astemo",
+      "automation",
+      "file",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-meeting-live-copilot",
+    "skill_b": "astemo-meeting-prep",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "agenda",
+      "astemo",
+      "fh4l",
+      "fh4s",
+      "meeting",
+      "meetings",
+      "xy9h"
+    ]
+  },
+  {
+    "skill_a": "astemo-onedrive",
+    "skill_b": "hl-dropbox",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "astemo",
+      "automation",
+      "headless",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-presentation-prep-relay",
+    "skill_b": "enterprise-artifact-generator",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "astemo",
+      "dropbox",
+      "packets",
+      "relay",
+      "relay-safe",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo-teams",
+    "skill_b": "hl-dropbox",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "astemo",
+      "automation",
+      "headless",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-dropbox",
+    "skill_b": "hl-m365",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "astemo",
+      "automation",
+      "file",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "langgraph-agent",
+    "skill_b": "tdd",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "build",
+      "mentions",
+      "user",
+      "using",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "operator-patterns",
+    "skill_b": "voice-deconstruction",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "apply",
+      "needs",
+      "operator",
+      "session",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-intel",
+    "skill_b": "x-growth",
+    "overlap": 7,
+    "pct": 36.8,
+    "shared": [
+      "creator",
+      "growth",
+      "strategy",
+      "twitter",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-calendar",
+    "skill_b": "astemo-onedrive",
+    "overlap": 11,
+    "pct": 36.7,
+    "shared": [
+      "astemo",
+      "automation",
+      "context",
+      "enriches",
+      "headless",
+      "needs",
+      "program",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "craft-command-surfaces",
+    "skill_b": "craft-widget-kit",
+    "overlap": 11,
+    "pct": 36.7,
+    "shared": [
+      "agent",
+      "compact",
+      "craft",
+      "craft-native",
+      "creating",
+      "improving",
+      "needs",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "mesh-audit",
+    "skill_b": "mesh-ops",
+    "overlap": 11,
+    "pct": 36.7,
+    "shared": [
+      "audit",
+      "aurion",
+      "friday",
+      "health",
+      "jarvis",
+      "mesh",
+      "openclaw",
+      "status"
+    ]
+  },
+  {
+    "skill_a": "astemo-hl",
+    "skill_b": "hl-excel-online",
+    "overlap": 12,
+    "pct": 36.4,
+    "shared": [
+      "automation",
+      "check",
+      "excel",
+      "from",
+      "headless",
+      "m365",
+      "needs",
+      "online"
+    ]
+  },
+  {
+    "skill_a": "design-system",
+    "skill_b": "omarchy-design-system",
+    "overlap": 8,
+    "pct": 36.4,
+    "shared": [
+      "design",
+      "html",
+      "needs",
+      "omarchy",
+      "system",
+      "user",
+      "visualization",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "github-triage",
+    "skill_b": "triage-issue",
+    "overlap": 8,
+    "pct": 36.4,
+    "shared": [
+      "create",
+      "github",
+      "issue",
+      "triage",
+      "triaging",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-excel-online",
+    "skill_b": "hl-m365",
+    "overlap": 12,
+    "pct": 36.4,
+    "shared": [
+      "automation",
+      "check",
+      "excel",
+      "from",
+      "headless",
+      "m365",
+      "needs",
+      "online"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-automation",
+    "skill_b": "hl-shadow-config-cycle",
+    "overlap": 8,
+    "pct": 36.4,
+    "shared": [
+      "config",
+      "headless",
+      "needs",
+      "shadow",
+      "status",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-automation",
+    "skill_b": "hl-shadow-conversation-cycle",
+    "overlap": 8,
+    "pct": 36.4,
+    "shared": [
+      "conversation",
+      "headless",
+      "needs",
+      "shadow",
+      "status",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-config-cycle",
+    "skill_b": "hl-shadow-review",
+    "overlap": 8,
+    "pct": 36.4,
+    "shared": [
+      "config-cycle",
+      "headless",
+      "needs",
+      "shadow",
+      "status",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-conversation-cycle",
+    "skill_b": "hl-shadow-review",
+    "overlap": 8,
+    "pct": 36.4,
+    "shared": [
+      "conversation-cycle",
+      "headless",
+      "needs",
+      "shadow",
+      "status",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "qa",
+    "skill_b": "triage-issue",
+    "overlap": 8,
+    "pct": 36.4,
+    "shared": [
+      "codebase",
+      "file",
+      "github",
+      "mentions",
+      "reports",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "caveman",
+    "skill_b": "hl-session-tracking",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "needs",
+      "tokens",
+      "usage",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "cc-component",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "gc-dashboard",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-component",
+    "skill_b": "shadowtech-canvas-viz",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "design",
+      "generating",
+      "system",
+      "tooltips",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "gc-dashboard",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "design",
+      "output",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "hl-session-tracking",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "needs",
+      "tokens",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "gc-dashboard",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "output",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "copilot-canvas-renderer",
+    "skill_b": "gc-dashboard",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "design",
+      "output",
+      "status",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "data-dashboard",
+    "skill_b": "gc-dashboard",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "dashboard",
+      "design",
+      "generating",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "gc-canvas-viz",
+    "skill_b": "gc-dashboard",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "gc-dashboard",
+    "skill_b": "gc-html-page",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "gc-design-system",
+    "skill_b": "hl-session-tracking",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "needs",
+      "tokens",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gh-recent",
+    "skill_b": "to-prd",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "create",
+      "from",
+      "github",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "github-cli-token-ops",
+    "skill_b": "to-prd",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "from",
+      "github",
+      "issue",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-chatgpt",
+    "skill_b": "hl-session-tracking",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "needs",
+      "subscription",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cursor-session-hooks",
+    "skill_b": "hl-session-tracking",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "needs",
+      "session",
+      "tracking",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-session-tracking",
+    "skill_b": "init-tune",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "needs",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-session-tracking",
+    "skill_b": "m3-supplier-agent",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "analysis",
+      "needs",
+      "tracking",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-session-tracking",
+    "skill_b": "self-observation-loop",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "needs",
+      "real",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-session-tracking",
+    "skill_b": "shadow-connect",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "codex",
+      "needs",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-session-tracking",
+    "skill_b": "shadow-copilot",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "needs",
+      "tracking",
+      "usage",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "plugin-creator",
+    "skill_b": "to-prd",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "create",
+      "into",
+      "turning",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "qa",
+    "skill_b": "to-prd",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "context",
+      "github",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-pm",
+    "skill_b": "to-prd",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "create",
+      "github",
+      "issue",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadowpedia",
+    "skill_b": "to-prd",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "from",
+      "into",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "to-prd",
+    "skill_b": "web-slide-studio",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "from",
+      "into",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "to-prd",
+    "skill_b": "x-claims",
+    "overlap": 5,
+    "pct": 35.7,
+    "shared": [
+      "from",
+      "into",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "acp-delegate-auto",
+    "skill_b": "hl-calendar-native",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "availability",
+      "local",
+      "needs",
+      "private",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "cc-design-system",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "codex",
+      "design",
+      "system",
+      "visualization",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "copilot-canvas-renderer",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "brand",
+      "design",
+      "output",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "craft-widget-kit",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "needs",
+      "output",
+      "patterns",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "data-dashboard",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "design",
+      "html",
+      "system",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "shadow-patterns",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "building",
+      "needs",
+      "patterns",
+      "system",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "shadow-refactor",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "building",
+      "needs",
+      "patterns",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "cc-design-system",
+    "skill_b": "trmnl-plugin-dev",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "building",
+      "html",
+      "needs",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "craft-surface-router",
+    "skill_b": "shadow-x-live-theme-engine",
+    "overlap": 12,
+    "pct": 35.3,
+    "shared": [
+      "approval",
+      "cards",
+      "craft",
+      "dashboards",
+      "deciding",
+      "diagrams",
+      "display",
+      "markdown"
+    ]
+  },
+  {
+    "skill_a": "design-system",
+    "skill_b": "gc-design-system",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "codex",
+      "design",
+      "needs",
+      "system",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "echo-loop",
+    "skill_b": "shadow-research-factory",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "loop",
+      "needs",
+      "status",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "echo-loop",
+    "skill_b": "trmnl-plugin-dev",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "device",
+      "needs",
+      "push",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "fh4s-sasg-forms",
+    "skill_b": "fh4s-smartsheet-sync",
+    "overlap": 12,
+    "pct": 35.3,
+    "shared": [
+      "activity",
+      "fh4s",
+      "from",
+      "lead",
+      "perspective",
+      "program",
+      "schedule",
+      "shadow-sidecast"
+    ]
+  },
+  {
+    "skill_a": "gc-design-system",
+    "skill_b": "omarchy-design-system",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "building",
+      "design",
+      "needs",
+      "system",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gc-design-system",
+    "skill_b": "shadow-patterns",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "building",
+      "needs",
+      "patterns",
+      "system",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "request-refactor-plan",
+    "skill_b": "write-a-skill",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "create",
+      "creating",
+      "user",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "scaffold-exercises",
+    "skill_b": "write-a-skill",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "create",
+      "creating",
+      "user",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "shadcn",
+    "skill_b": "trmnl-plugin-dev",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "building",
+      "configuring",
+      "custom",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-typora-engine",
+    "skill_b": "shadow-x-live-theme-engine",
+    "overlap": 12,
+    "pct": 35.3,
+    "shared": [
+      "calm",
+      "engine",
+      "focus",
+      "modes",
+      "publish",
+      "review",
+      "shadow",
+      "theme"
+    ]
+  },
+  {
+    "skill_a": "shadowpedia",
+    "skill_b": "write-a-skill",
+    "overlap": 6,
+    "pct": 35.3,
+    "shared": [
+      "agent",
+      "skill",
+      "structure",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "acp-delegate-auto",
+    "skill_b": "shadow-secure",
+    "overlap": 7,
+    "pct": 35.0,
+    "shared": [
+      "agent",
+      "local",
+      "mesh",
+      "needs",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "bryan-voris-communication",
+    "overlap": 7,
+    "pct": 35.0,
+    "shared": [
+      "astemo",
+      "communication",
+      "context",
+      "program",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "ghen-takahashi-communication",
+    "overlap": 7,
+    "pct": 35.0,
+    "shared": [
+      "astemo",
+      "communication",
+      "context",
+      "program",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "kevin-butler-communication",
+    "overlap": 7,
+    "pct": 35.0,
+    "shared": [
+      "astemo",
+      "communication",
+      "context",
+      "program",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo-pipeline",
+    "skill_b": "shadow-connect",
+    "overlap": 7,
+    "pct": 35.0,
+    "shared": [
+      "data",
+      "enterprise",
+      "kernel",
+      "model",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-teams",
+    "skill_b": "wacli",
+    "overlap": 7,
+    "pct": 35.0,
+    "shared": [
+      "chat",
+      "chats",
+      "message",
+      "messages",
+      "search",
+      "trigger",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "ghen-takahashi-communication",
+    "skill_b": "sabarish-communication-style",
+    "overlap": 7,
+    "pct": 35.0,
+    "shared": [
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "hl-shadowsecure",
+    "skill_b": "shadow-secure",
+    "overlap": 7,
+    "pct": 35.0,
+    "shared": [
+      "exposure",
+      "needs",
+      "patterns",
+      "security",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "opencode-runtime-identity",
+    "skill_b": "plugin-creator",
+    "overlap": 7,
+    "pct": 35.0,
+    "shared": [
+      "local",
+      "needs",
+      "opencode",
+      "plugins",
+      "runtime",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gh-recent",
+    "skill_b": "yt-recent-insights",
+    "overlap": 8,
+    "pct": 34.8,
+    "shared": [
+      "from",
+      "history",
+      "latest",
+      "re-skill",
+      "recent",
+      "shadow-extract",
+      "skill",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "agent-cryst",
+    "skill_b": "crystallize",
+    "overlap": 9,
+    "pct": 34.6,
+    "shared": [
+      "agent",
+      "create",
+      "crystallize",
+      "make",
+      "pattern",
+      "reusable",
+      "session",
+      "that"
+    ]
+  },
+  {
+    "skill_a": "astemo-chrome",
+    "skill_b": "astemo-hl",
+    "overlap": 9,
+    "pct": 34.6,
+    "shared": [
+      "astemo",
+      "from",
+      "m365",
+      "needs",
+      "outlook",
+      "sharepoint",
+      "teams",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo-chrome",
+    "skill_b": "hl-m365",
+    "overlap": 9,
+    "pct": 34.6,
+    "shared": [
+      "astemo",
+      "from",
+      "m365",
+      "needs",
+      "outlook",
+      "sharepoint",
+      "teams",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo-calendar",
+    "skill_b": "astemo-outlook",
+    "overlap": 10,
+    "pct": 34.5,
+    "shared": [
+      "astemo",
+      "automation",
+      "check",
+      "enriches",
+      "needs",
+      "outlook",
+      "trigger",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo-chrome-bridge",
+    "skill_b": "browser-surface-bridge",
+    "overlap": 10,
+    "pct": 34.5,
+    "shared": [
+      "access",
+      "bridge",
+      "browser",
+      "chrome",
+      "data",
+      "m365",
+      "outlook",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "astemo-chrome-bridge",
+    "skill_b": "m365-auth",
+    "overlap": 10,
+    "pct": 34.5,
+    "shared": [
+      "access",
+      "astemo",
+      "bridge",
+      "browser",
+      "chrome",
+      "m365",
+      "needing",
+      "status"
+    ]
+  },
+  {
+    "skill_a": "astemo-hl",
+    "skill_b": "astemo-outlook",
+    "overlap": 10,
+    "pct": 34.5,
+    "shared": [
+      "astemo",
+      "automation",
+      "check",
+      "email",
+      "from",
+      "needs",
+      "outlook",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "astemo-outlook",
+    "skill_b": "hl-m365",
+    "overlap": 10,
+    "pct": 34.5,
+    "shared": [
+      "astemo",
+      "automation",
+      "check",
+      "email",
+      "from",
+      "needs",
+      "outlook",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "fh4s-smart-drawing",
+    "skill_b": "m3-drawing-agent",
+    "overlap": 10,
+    "pct": 34.5,
+    "shared": [
+      "block",
+      "drawing",
+      "kiso",
+      "revision",
+      "smart",
+      "smart drawing",
+      "title",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "command-center",
+    "skill_b": "mesh-ops",
+    "overlap": 11,
+    "pct": 34.4,
+    "shared": [
+      "agent",
+      "aurion",
+      "dispatch",
+      "friday",
+      "health",
+      "jarvis",
+      "mesh",
+      "needs"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "hosoya-haruyasu-communication",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "communication",
+      "context",
+      "program",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "miki-cross-communication",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "communication",
+      "context",
+      "program",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "ryoko-schaefer-communication",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "communication",
+      "context",
+      "program",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "communication",
+      "context",
+      "program",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo-calendar",
+    "skill_b": "astemo-program-context",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "context",
+      "needs",
+      "program",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-dropbox",
+    "skill_b": "astemo-project-schema",
+    "overlap": 8,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "canonical",
+      "dropbox",
+      "needs",
+      "project",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-dropbox",
+    "skill_b": "astemo-template-fallback",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "canonical",
+      "file",
+      "needs",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-excel-online",
+    "skill_b": "astemo-onedrive",
+    "overlap": 10,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "automation",
+      "enriches",
+      "fh4s",
+      "headless",
+      "needs",
+      "trigger",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo-ingest",
+    "skill_b": "astemo-meeting-prep",
+    "overlap": 11,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "astemo-work-context",
+      "cross-program",
+      "fh4l",
+      "fh4s",
+      "p703",
+      "program",
+      "resolved"
+    ]
+  },
+  {
+    "skill_a": "astemo-onedrive",
+    "skill_b": "astemo-program-context",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "context",
+      "needs",
+      "program",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-onedrive",
+    "skill_b": "astemo-teams",
+    "overlap": 10,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "automation",
+      "context",
+      "headless",
+      "needs",
+      "search",
+      "trigger",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo-onedrive",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "context",
+      "needs",
+      "project",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-project-schema",
+    "skill_b": "astemo-work-context",
+    "overlap": 8,
+    "pct": 33.3,
+    "shared": [
+      "across",
+      "astemo",
+      "fh4s",
+      "honda",
+      "needs",
+      "program",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-project-schema",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "across",
+      "needs",
+      "project",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-teams",
+    "skill_b": "hl-excel-online",
+    "overlap": 11,
+    "pct": 33.3,
+    "shared": [
+      "automation",
+      "browser",
+      "check",
+      "headless",
+      "needs",
+      "playwright",
+      "read",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "astemo-teams",
+    "skill_b": "obsidian-vault",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "needs",
+      "search",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "astemo-work-context",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "across",
+      "context",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "async-boundary-queue",
+    "skill_b": "shadow-relay-agent",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "async",
+      "needs",
+      "queues",
+      "shared",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee",
+    "skill_b": "bee-setup",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "bee",
+      "needs",
+      "setup",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-setup",
+    "skill_b": "hl-shadow-automation",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "install",
+      "needs",
+      "user",
+      "verification",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-setup",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "friday",
+      "needs",
+      "project",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bitwarden-browser",
+    "skill_b": "obsidian-vault",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "find",
+      "manage",
+      "search",
+      "vault",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "cc-html-page",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-canvas-viz",
+    "skill_b": "design-system",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "canvas",
+      "codex",
+      "design",
+      "system",
+      "visualization",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "copilot-canvas-renderer",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "design",
+      "output",
+      "page",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "data-dashboard",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "design",
+      "generating",
+      "html",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "gc-component",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "codex",
+      "design",
+      "following",
+      "generating",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "omarchy-design-system",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "design",
+      "html",
+      "output",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-html-page",
+    "skill_b": "shadowtech-canvas-viz",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "design",
+      "generating",
+      "system",
+      "visualizations",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "codex-policy-steering",
+    "skill_b": "hl-chatgpt",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "access",
+      "codex",
+      "user",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "command-center",
+    "skill_b": "mesh-audit",
+    "overlap": 10,
+    "pct": 33.3,
+    "shared": [
+      "across",
+      "aurion",
+      "friday",
+      "health",
+      "jarvis",
+      "mesh",
+      "system",
+      "ultron"
+    ]
+  },
+  {
+    "skill_a": "command-center",
+    "skill_b": "mesh-scanner",
+    "overlap": 9,
+    "pct": 33.3,
+    "shared": [
+      "across",
+      "aurion",
+      "friday",
+      "jarvis",
+      "mesh",
+      "needs",
+      "ultron",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "domain-model",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "context",
+      "needs",
+      "project",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "domain-model",
+    "skill_b": "qa",
+    "overlap": 8,
+    "pct": 33.3,
+    "shared": [
+      "context",
+      "domain",
+      "language",
+      "needs",
+      "session",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "experience-capture",
+    "skill_b": "hl-cursor-session-hooks",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "capture",
+      "into",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "experience-capture",
+    "skill_b": "hl-subscription-research",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "fresh",
+      "needs",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "fh4s-context",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "context",
+      "needs",
+      "project",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "fh4s-smart-drawing",
+    "skill_b": "migrate-to-shoehorn",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "data",
+      "files",
+      "from",
+      "mentions",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "friday-unified",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "friday",
+      "jarvis",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "github-skill",
+    "skill_b": "hl-cursor-session-hooks",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "into",
+      "live",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "github-skill",
+    "skill_b": "shadow-relay-agent",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "agent",
+      "context",
+      "live",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "github-triage",
+    "skill_b": "obsidian-vault",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "create",
+      "manage",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gog-cli",
+    "skill_b": "hl-chatgpt",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "access",
+      "needs",
+      "user",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "hl-calendar",
+    "skill_b": "hl-excel-online",
+    "overlap": 11,
+    "pct": 33.3,
+    "shared": [
+      "automation",
+      "browser",
+      "check",
+      "extract",
+      "headless",
+      "navigate",
+      "needs",
+      "playwright"
+    ]
+  },
+  {
+    "skill_a": "hl-cursor-session-hooks",
+    "skill_b": "plugin-creator",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "hooks",
+      "into",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cursor-session-hooks",
+    "skill_b": "self-observation-loop",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "logs",
+      "needs",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cursor-session-hooks",
+    "skill_b": "shadow-relay-agent",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "live",
+      "needs",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cursor-session-hooks",
+    "skill_b": "shadow-traces",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "capture",
+      "needs",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-cursor-session-hooks",
+    "skill_b": "voice-deconstruction",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "into",
+      "needs",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-excel-online",
+    "skill_b": "hl-sharepoint",
+    "overlap": 11,
+    "pct": 33.3,
+    "shared": [
+      "automation",
+      "browser",
+      "from",
+      "headless",
+      "needs",
+      "online",
+      "playwright",
+      "sharepoint"
+    ]
+  },
+  {
+    "skill_a": "hl-live-api-testing",
+    "skill_b": "md-evolution",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "behavior",
+      "docs",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-live-api-testing",
+    "skill_b": "music-reverse-engineering",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "engineer",
+      "needs",
+      "reverse",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-live-api-testing",
+    "skill_b": "shadow-patterns",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "engineer",
+      "needs",
+      "reverse",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-launchd",
+    "skill_b": "hl-shadowprivacy",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "config",
+      "headless",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-sharepoint",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "across",
+      "from",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-sharepoint",
+    "skill_b": "shadow-relay-agent",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "browser",
+      "fallback",
+      "needs",
+      "shared",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-skillmesh",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "across",
+      "mesh",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-research",
+    "skill_b": "intelligence-report",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "data",
+      "research",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-research",
+    "skill_b": "m3-supplier-agent",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "analysis",
+      "needs",
+      "tracking",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-research",
+    "skill_b": "shadow-refactor",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "needs",
+      "optimize",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-research",
+    "skill_b": "shadow-research-factory",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "data",
+      "needs",
+      "research",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-research",
+    "skill_b": "slack",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "data",
+      "needs",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-research",
+    "skill_b": "trmnl-plugin-dev",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "data",
+      "needs",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-research",
+    "skill_b": "upscaler-brief",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "data",
+      "needs",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-research",
+    "skill_b": "x-research",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "analysis",
+      "research",
+      "tracking",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-subscription-research",
+    "skill_b": "xteink-firmware",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "analysis",
+      "needs",
+      "optimize",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-trmnl",
+    "skill_b": "mesh-context",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "from",
+      "mesh",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-x",
+    "skill_b": "reddit-recent-extract",
+    "overlap": 8,
+    "pct": 33.3,
+    "shared": [
+      "from",
+      "re-skill",
+      "recent",
+      "search",
+      "shadow-extract",
+      "thread",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hosoya-haruyasu-communication",
+    "skill_b": "sabarish-communication-style",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "mesh-context",
+    "skill_b": "shadow-connect",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "context",
+      "mesh",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "mesh-context",
+    "skill_b": "shadow-engg",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "across",
+      "context",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "mesh-context",
+    "skill_b": "shadow-traces",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "context",
+      "from",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "mesh-context",
+    "skill_b": "shadowarchive-offload",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "from",
+      "needs",
+      "project",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "migrate-to-shoehorn",
+    "skill_b": "qa",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "files",
+      "mentions",
+      "needs",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "migrate-to-shoehorn",
+    "skill_b": "tdd",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "mentions",
+      "needs",
+      "tests",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "migrate-to-shoehorn",
+    "skill_b": "web-slide-studio",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "files",
+      "from",
+      "mentions",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "miki-cross-communication",
+    "skill_b": "sabarish-communication-style",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "oracle-cloud",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "manage",
+      "needs",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "request-refactor-plan",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "create",
+      "user",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "scaffold-exercises",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "create",
+      "user",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "spaces-skills",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "manage",
+      "user",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "tdd",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "needs",
+      "user",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "to-issues",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "create",
+      "needs",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "trmnl-plugin-dev",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "create",
+      "needs",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "obsidian-vault",
+    "skill_b": "write-a-skill",
+    "overlap": 5,
+    "pct": 33.3,
+    "shared": [
+      "create",
+      "user",
+      "wants",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "qa",
+    "skill_b": "shadow-relay-agent",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "agent",
+      "context",
+      "needs",
+      "session",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "ryoko-schaefer-communication",
+    "skill_b": "sabarish-communication-style",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "sabarish-communication-style",
+    "skill_b": "saitoh-ken-communication",
+    "overlap": 7,
+    "pct": 33.3,
+    "shared": [
+      "astemo",
+      "communication",
+      "drafting",
+      "email",
+      "teams",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "shadow-connect",
+    "skill_b": "shadow-relay-agent",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "context",
+      "needs",
+      "session",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-pm",
+    "skill_b": "shadow-relay-agent",
+    "overlap": 6,
+    "pct": 33.3,
+    "shared": [
+      "agent",
+      "needs",
+      "operations",
+      "shadow",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadowtech-canvas-viz",
+    "skill_b": "shadowtech-design-system",
+    "overlap": 11,
+    "pct": 33.3,
+    "shared": [
+      "agent",
+      "deep",
+      "design",
+      "fleet",
+      "glassmorphism",
+      "glows",
+      "mesh",
+      "shadowtech"
+    ]
+  },
+  {
+    "skill_a": "fh4s-drawing-check",
+    "skill_b": "fh4s-honda-response",
+    "overlap": 13,
+    "pct": 32.5,
+    "shared": [
+      "change",
+      "fh4s",
+      "from",
+      "lead",
+      "perspective",
+      "point",
+      "program",
+      "shadow-sidecast"
+    ]
+  },
+  {
+    "skill_a": "astemo-calendar",
+    "skill_b": "astemo-teams",
+    "overlap": 11,
+    "pct": 32.4,
+    "shared": [
+      "astemo",
+      "automation",
+      "check",
+      "context",
+      "headless",
+      "meeting",
+      "needs",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "astemo-teams",
+    "skill_b": "slack",
+    "overlap": 12,
+    "pct": 32.4,
+    "shared": [
+      "automation",
+      "browser",
+      "channels",
+      "check",
+      "conversations",
+      "message",
+      "messages",
+      "needs"
+    ]
+  },
+  {
+    "skill_a": "fh4s-drawing-check",
+    "skill_b": "fh4s-smartsheet-sync",
+    "overlap": 11,
+    "pct": 32.4,
+    "shared": [
+      "between",
+      "fh4s",
+      "from",
+      "lead",
+      "perspective",
+      "program",
+      "shadow-sidecast",
+      "team-map"
+    ]
+  },
+  {
+    "skill_a": "fh4s-honda-response",
+    "skill_b": "fh4s-smartsheet-sync",
+    "overlap": 11,
+    "pct": 32.4,
+    "shared": [
+      "fh4s",
+      "from",
+      "lead",
+      "perspective",
+      "program",
+      "shadow-sidecast",
+      "team-map",
+      "tracker"
+    ]
+  },
+  {
+    "skill_a": "astemo-design-system",
+    "skill_b": "copilot-canvas-renderer",
+    "overlap": 10,
+    "pct": 32.3,
+    "shared": [
+      "artifact",
+      "astemo",
+      "astemo-branded",
+      "brand",
+      "colors",
+      "design",
+      "docx",
+      "shell"
+    ]
+  },
+  {
+    "skill_a": "mesh-ops",
+    "skill_b": "storage-ops",
+    "overlap": 10,
+    "pct": 32.3,
+    "shared": [
+      "audit",
+      "cache",
+      "cache cleanup",
+      "caches",
+      "cleanup",
+      "needs",
+      "operation",
+      "ops"
+    ]
+  },
+  {
+    "skill_a": "shadow-anchor",
+    "skill_b": "shadow-summary",
+    "overlap": 10,
+    "pct": 32.3,
+    "shared": [
+      "from",
+      "generate",
+      "session",
+      "session summary",
+      "shadow",
+      "summarize",
+      "summary",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "m365-search",
+    "overlap": 8,
+    "pct": 32.0,
+    "shared": [
+      "across",
+      "astemo",
+      "m365",
+      "presentations",
+      "program",
+      "sharepoint",
+      "spreadsheets",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-skill-assessment",
+    "skill_b": "hl-excel-online",
+    "overlap": 8,
+    "pct": 32.0,
+    "shared": [
+      "excel",
+      "from",
+      "needs",
+      "user",
+      "when",
+      "with",
+      "workbook",
+      "workbooks"
+    ]
+  },
+  {
+    "skill_a": "hl-sharepoint",
+    "skill_b": "m365-search",
+    "overlap": 8,
+    "pct": 32.0,
+    "shared": [
+      "across",
+      "document",
+      "documents",
+      "search",
+      "sharepoint",
+      "sites",
+      "trigger",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-trmnl",
+    "skill_b": "xteink-firmware",
+    "overlap": 8,
+    "pct": 32.0,
+    "shared": [
+      "device",
+      "e-paper",
+      "manage",
+      "needs",
+      "trigger",
+      "trmnl",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "m3-honda-agent",
+    "skill_b": "m3-tracker-agent",
+    "overlap": 8,
+    "pct": 32.0,
+    "shared": [
+      "agent",
+      "change",
+      "needs",
+      "point",
+      "summaries",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "trmnl-plugin-dev",
+    "skill_b": "xteink-firmware",
+    "overlap": 8,
+    "pct": 32.0,
+    "shared": [
+      "device",
+      "e-paper",
+      "management",
+      "needs",
+      "trigger",
+      "trmnl",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-work-context",
+    "skill_b": "shadow-sidecast",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "across",
+      "chart",
+      "needs",
+      "program",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-brief",
+    "skill_b": "outlook-headless-workflow",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "asks",
+      "check",
+      "email",
+      "handling",
+      "recent",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "command-center",
+    "skill_b": "friday-unified",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "friday",
+      "interface",
+      "jarvis",
+      "needs",
+      "user",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "github-triage",
+    "skill_b": "qa",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "agent",
+      "bugs",
+      "github",
+      "issues",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-cache",
+    "skill_b": "hl-shadow-config-cycle",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "config",
+      "headless",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-config-cycle",
+    "skill_b": "hl-shadowprivacy",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "config",
+      "headless",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-config-cycle",
+    "skill_b": "hl-shadowsecure",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "check",
+      "headless",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-conversation-cycle",
+    "skill_b": "hl-shadowsecure",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "check",
+      "headless",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-patterns",
+    "skill_b": "shadow-sidecast",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "ecosystem",
+      "needs",
+      "shadow",
+      "system",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-traces",
+    "skill_b": "zoom-out",
+    "overlap": 7,
+    "pct": 31.8,
+    "shared": [
+      "agent",
+      "code",
+      "context",
+      "needs",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "hl-trmnl",
+    "skill_b": "trmnl-plugin-dev",
+    "overlap": 13,
+    "pct": 31.7,
+    "shared": [
+      "data",
+      "device",
+      "display",
+      "e-paper",
+      "image",
+      "needs",
+      "playlist",
+      "push"
+    ]
+  },
+  {
+    "skill_a": "acp-delegate-auto",
+    "skill_b": "operator-patterns",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "automatically",
+      "needs",
+      "this",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-change-point-update",
+    "skill_b": "astemo-meeting-live-copilot",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "astemo",
+      "fh4l",
+      "fh4s",
+      "meeting",
+      "meetings",
+      "xy9h"
+    ]
+  },
+  {
+    "skill_a": "astemo-excel-online",
+    "skill_b": "hl-dropbox",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "astemo",
+      "automation",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-hl",
+    "skill_b": "astemo-org-templates",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "astemo",
+      "excel",
+      "needs",
+      "teams",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-org-templates",
+    "skill_b": "astemo-skill-assessment",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "astemo",
+      "excel",
+      "needs",
+      "user",
+      "when",
+      "workbooks"
+    ]
+  },
+  {
+    "skill_a": "astemo-org-templates",
+    "skill_b": "astemo-template-fallback",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "astemo",
+      "needs",
+      "template",
+      "templates",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-org-templates",
+    "skill_b": "hl-m365",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "astemo",
+      "excel",
+      "needs",
+      "teams",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-presentation-prep-relay",
+    "skill_b": "astemo-project-schema",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "astemo",
+      "dropbox",
+      "fh4l",
+      "fh4s",
+      "when",
+      "xy9h"
+    ]
+  },
+  {
+    "skill_a": "astemo-presentation-prep-relay",
+    "skill_b": "sabarish-communication-style",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "astemo",
+      "customer",
+      "internal",
+      "preparing",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo-skill-assessment",
+    "skill_b": "tdd",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "asks",
+      "development",
+      "needs",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "bee",
+    "skill_b": "bee-workflow",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "bee",
+      "commitments",
+      "extraction",
+      "facts",
+      "sync",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-dropbox",
+    "skill_b": "hl-shadow-automation",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "automation",
+      "config",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-dropbox",
+    "skill_b": "hl-shadowprivacy",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "config",
+      "headless",
+      "local",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-dropbox",
+    "skill_b": "hl-sharepoint",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "automation",
+      "headless",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "m365-auth",
+    "skill_b": "operator-patterns",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "needs",
+      "patterns",
+      "session",
+      "this",
+      "trigger",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "operator-patterns",
+    "skill_b": "pptx-visual-validation",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "needs",
+      "never",
+      "this",
+      "trigger",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "operator-patterns",
+    "skill_b": "shadow-refactor",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "needs",
+      "patterns",
+      "trigger",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "operator-patterns",
+    "skill_b": "shadow-traces",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "apply",
+      "needs",
+      "session",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "operator-patterns",
+    "skill_b": "upscaler-brief",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "needs",
+      "session",
+      "specific",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "qa",
+    "skill_b": "tdd",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "bugs",
+      "mentions",
+      "needs",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "web-slide-studio",
+    "skill_b": "x-claims",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "from",
+      "into",
+      "technical",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "x-claims",
+    "skill_b": "x-research",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "evidence",
+      "from",
+      "twitter",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "x-content-lab",
+    "skill_b": "x-growth",
+    "overlap": 6,
+    "pct": 31.6,
+    "shared": [
+      "content",
+      "threads",
+      "twitter",
+      "user",
+      "wants",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadowsecure",
+    "skill_b": "hl-skillmesh",
+    "overlap": 11,
+    "pct": 31.4,
+    "shared": [
+      "headless",
+      "helper",
+      "host",
+      "imported",
+      "inventory",
+      "needs",
+      "shadow",
+      "this"
+    ]
+  },
+  {
+    "skill_a": "astemo-calendar",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "context",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-chrome",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "browser",
+      "management",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-design-system",
+    "skill_b": "gc-html-page",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "colors",
+      "design",
+      "generating",
+      "html",
+      "system"
+    ]
+  },
+  {
+    "skill_a": "astemo-excel-online",
+    "skill_b": "astemo-hl",
+    "overlap": 10,
+    "pct": 31.2,
+    "shared": [
+      "astemo",
+      "automation",
+      "excel",
+      "headless",
+      "needs",
+      "online",
+      "sharepoint",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "astemo-excel-online",
+    "skill_b": "astemo-teams",
+    "overlap": 10,
+    "pct": 31.2,
+    "shared": [
+      "astemo",
+      "automation",
+      "browser",
+      "headless",
+      "needs",
+      "read",
+      "trigger",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "astemo-excel-online",
+    "skill_b": "hl-m365",
+    "overlap": 10,
+    "pct": 31.2,
+    "shared": [
+      "astemo",
+      "automation",
+      "excel",
+      "headless",
+      "needs",
+      "online",
+      "sharepoint",
+      "trigger"
+    ]
+  },
+  {
+    "skill_a": "astemo-excel-online",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "browser",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-hl",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "extraction",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-pipeline",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "extraction",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "extraction",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-audit",
+    "skill_b": "hl-shadow-automation",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "exposure",
+      "needs",
+      "privacy",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-audit",
+    "skill_b": "hl-trmnl",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "check",
+      "data",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-audit",
+    "skill_b": "reverse-github",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "audit",
+      "inventory",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "bee-audit",
+    "skill_b": "slack",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "check",
+      "data",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "browser-surface-bridge",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "applescript",
+      "browser",
+      "safari",
+      "search",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "cc-animation",
+    "skill_b": "design-system",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "animation",
+      "animations",
+      "codex",
+      "html",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "craft-command-surfaces",
+    "skill_b": "edit-article",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "improving",
+      "needs",
+      "prose",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gc-canvas-viz",
+    "skill_b": "gc-html-page",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "codex",
+      "design",
+      "generating",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "gc-component",
+    "skill_b": "gc-html-page",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "codex",
+      "design",
+      "following",
+      "generating",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "gc-html-page",
+    "skill_b": "shadow-typora-engine",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "design",
+      "generating",
+      "semantic",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "gc-html-page",
+    "skill_b": "shadowtech-canvas-viz",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "design",
+      "generating",
+      "system",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "gc-html-page",
+    "skill_b": "shadowtech-design-system",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "aesthetic",
+      "design",
+      "html",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-calendar",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "browser",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-dropbox",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "headless",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-excel-online",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "browser",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-m365",
+    "skill_b": "hl-safari-tabs",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "extraction",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-safari-tabs",
+    "skill_b": "hl-shadowsecure",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "browser",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-safari-tabs",
+    "skill_b": "hl-x",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "extraction",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-safari-tabs",
+    "skill_b": "m3-engg",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "needs",
+      "research",
+      "user",
+      "using",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-safari-tabs",
+    "skill_b": "outlook-headless-workflow",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "browser",
+      "headless",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-safari-tabs",
+    "skill_b": "shadow-relay-agent",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "browser",
+      "context",
+      "needs",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-safari-tabs",
+    "skill_b": "shadowpedia",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "extraction",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-safari-tabs",
+    "skill_b": "sp-crawl",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "browser",
+      "needs",
+      "search",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "obsidian-live-transcript-routing",
+    "skill_b": "voice-deconstruction",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "into",
+      "parakeet",
+      "speak2",
+      "using",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-airplay-skill",
+    "skill_b": "shadowarchive-offload",
+    "overlap": 5,
+    "pct": 31.2,
+    "shared": [
+      "from",
+      "local",
+      "shadow",
+      "targets",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-outlook",
+    "skill_b": "sabarish-communication-style",
+    "overlap": 9,
+    "pct": 31.0,
+    "shared": [
+      "astemo",
+      "bryan",
+      "email",
+      "emails",
+      "from",
+      "outlook",
+      "trigger",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "fh4s-drawing-check",
+    "skill_b": "m3-drawing-agent",
+    "overlap": 9,
+    "pct": 31.0,
+    "shared": [
+      "cross-reference",
+      "drawing",
+      "needs",
+      "revision",
+      "status",
+      "tracker",
+      "trigger",
+      "user"
+    ]
+  },
+  {
+    "skill_a": "re-skill-loop",
+    "skill_b": "yt-recent-insights",
+    "overlap": 9,
+    "pct": 31.0,
+    "shared": [
+      "from",
+      "history",
+      "re-skill",
+      "recent",
+      "resolving",
+      "shadow-extract",
+      "skill",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-chrome",
+    "skill_b": "astemo-chrome-bridge",
+    "overlap": 8,
+    "pct": 30.8,
+    "shared": [
+      "astemo",
+      "browser",
+      "chrome",
+      "data",
+      "from",
+      "m365",
+      "outlook",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "copilot-canvas-renderer",
+    "skill_b": "design-system",
+    "overlap": 8,
+    "pct": 30.8,
+    "shared": [
+      "astemo",
+      "brand",
+      "canvas",
+      "design",
+      "page",
+      "pages",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "design-system",
+    "skill_b": "shadowtech-html-page",
+    "overlap": 8,
+    "pct": 30.8,
+    "shared": [
+      "dashboards",
+      "design",
+      "html",
+      "page",
+      "pages",
+      "shadowtech",
+      "system",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "electron",
+    "skill_b": "slack",
+    "overlap": 12,
+    "pct": 30.8,
+    "shared": [
+      "automate",
+      "automation",
+      "include",
+      "needs",
+      "requiring",
+      "slack",
+      "task",
+      "triggers"
+    ]
+  },
+  {
+    "skill_a": "fh4s-honda-response",
+    "skill_b": "m3-tracker-agent",
+    "overlap": 8,
+    "pct": 30.8,
+    "shared": [
+      "change",
+      "fh4s",
+      "point",
+      "status",
+      "summaries",
+      "tracker",
+      "trigger",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-automation",
+    "skill_b": "hl-shadow-review",
+    "overlap": 8,
+    "pct": 30.8,
+    "shared": [
+      "headless",
+      "needs",
+      "review",
+      "shadow",
+      "status",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-review",
+    "skill_b": "hl-skillmesh",
+    "overlap": 8,
+    "pct": 30.8,
+    "shared": [
+      "headless",
+      "helper",
+      "needs",
+      "peers",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "iterm-mesh",
+    "skill_b": "spaces-skills",
+    "overlap": 8,
+    "pct": 30.8,
+    "shared": [
+      "iterm",
+      "iterm2",
+      "managing",
+      "mesh",
+      "profile",
+      "profiles",
+      "terminal",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "shadow-term",
+    "skill_b": "spaces-skills",
+    "overlap": 8,
+    "pct": 30.8,
+    "shared": [
+      "iterm",
+      "iterm2",
+      "managing",
+      "profile",
+      "profiles",
+      "shadowspaces",
+      "terminal",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "astemo-change-point-update",
+    "skill_b": "astemo-ingest",
+    "overlap": 11,
+    "pct": 30.6,
+    "shared": [
+      "astemo",
+      "astemo-work-context",
+      "cross-program",
+      "fh4l",
+      "fh4s",
+      "p703",
+      "program",
+      "resolved"
+    ]
+  },
+  {
+    "skill_a": "astemo",
+    "skill_b": "shadow-notes",
+    "overlap": 7,
+    "pct": 30.4,
+    "shared": [
+      "actions",
+      "astemo",
+      "enterprise",
+      "needs",
+      "outlook",
+      "when",
+      "work"
+    ]
+  },
+  {
+    "skill_a": "astemo-meeting-prep",
+    "skill_b": "fh4s-change-point-update",
+    "overlap": 7,
+    "pct": 30.4,
+    "shared": [
+      "cross-program",
+      "fh4s",
+      "meeting",
+      "program",
+      "tracker",
+      "trigger",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-cache",
+    "skill_b": "hl-shadow-review",
+    "overlap": 7,
+    "pct": 30.4,
+    "shared": [
+      "apply",
+      "headless",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-cache",
+    "skill_b": "hl-shadowprivacy",
+    "overlap": 7,
+    "pct": 30.4,
+    "shared": [
+      "config",
+      "headless",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "hl-shadow-cache",
+    "skill_b": "hl-skillmesh",
+    "overlap": 7,
+    "pct": 30.4,
+    "shared": [
+      "headless",
+      "into",
+      "needs",
+      "shadow",
+      "this",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "music-reverse-engineering",
+    "skill_b": "shadow-patterns",
+    "overlap": 7,
+    "pct": 30.4,
+    "shared": [
+      "engineer",
+      "engineering",
+      "from",
+      "needs",
+      "reverse",
+      "user",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "music-reverse-engineering",
+    "skill_b": "shadow-refactor",
+    "overlap": 7,
+    "pct": 30.4,
+    "shared": [
+      "from",
+      "local",
+      "needs",
+      "that",
+      "user",
+      "when",
+      "with"
+    ]
+  },
+  {
+    "skill_a": "patent-queue",
+    "skill_b": "shadow-pm",
+    "overlap": 7,
+    "pct": 30.4,
+    "shared": [
+      "filing",
+      "patent",
+      "shadow",
+      "status",
+      "track",
+      "trigger",
+      "when"
+    ]
+  },
+  {
+    "skill_a": "data-dashboard",
+    "skill_b": "shadowtech-canvas-viz",
+    "overlap": 10,
+    "pct": 30.3,
+    "shared": [
+      "animated",
+      "canvas",
+      "design",
+      "generating",
+      "glassmorphism",
+      "interactive",
+      "system",
+      "tooltips"
+    ]
+  },
+  {
+    "skill_a": "hl-excel-online",
+    "skill_b": "slack",
+    "overlap": 10,
+    "pct": 30.3,
+    "shared": [
+      "automation",
+      "browser",
+      "check",
+      "extract",
+      "from",
+      "navigate",
+      "needs",
+      "user"
+    ]
+  }
+]

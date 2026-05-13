@@ -1,0 +1,2642 @@
+[
+  {
+    "slug": "ai-sdk-core",
+    "score": 92,
+    "grade": "A",
+    "issues": [],
+    "lines": 185,
+    "category": "dev/code"
+  },
+  {
+    "slug": "acp-delegate-auto",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 225,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "agent-cryst",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 187,
+    "category": "memory/context"
+  },
+  {
+    "slug": "astemo-calendar",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 163,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-excel-online",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 177,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-hl",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 271,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-meeting-live-copilot",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 278,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-outlook",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 200,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-pipeline",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 234,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-presentation-prep-relay",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 204,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-teams",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 212,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "async-boundary-queue",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 435,
+    "category": "enterprise/work"
+  },
+  {
+    "slug": "cli-creator",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 229,
+    "category": "dev/code"
+  },
+  {
+    "slug": "cloudflare-worker-builder",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 160,
+    "category": "dev/code"
+  },
+  {
+    "slug": "craft-widget-kit",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 259,
+    "category": "docs/office"
+  },
+  {
+    "slug": "crystallize",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 263,
+    "category": "memory/context"
+  },
+  {
+    "slug": "fh4s-context",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 199,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "fh4s-drawing-query",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 225,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "fh4s-sasg-forms",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 249,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "fh4s-smart-drawing",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 225,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "here-now",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 459,
+    "category": "dev/deploy"
+  },
+  {
+    "slug": "hl-dropbox",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 298,
+    "category": "storage/cloud"
+  },
+  {
+    "slug": "hl-x",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 212,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "intelligence-report",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 206,
+    "category": "memory/context"
+  },
+  {
+    "slug": "meeting-check",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 201,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "mesh-ops",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 176,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "operator-patterns",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 508,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "outlook-headless-workflow",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 169,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "plugin-creator",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 235,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-engg",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 204,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-mind",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 178,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-pm",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 195,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "shadowtech-canvas-viz",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 177,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "slack",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 350,
+    "category": "automation/browser"
+  },
+  {
+    "slug": "symphony-linear-setup",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 167,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "x-growth",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 178,
+    "category": "content/x"
+  },
+  {
+    "slug": "x-research",
+    "score": 87,
+    "grade": "A",
+    "issues": [],
+    "lines": 183,
+    "category": "content/x"
+  },
+  {
+    "slug": "ai-fi-manager",
+    "score": 85,
+    "grade": "A",
+    "issues": [
+      "high dep count (4)"
+    ],
+    "lines": 210,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "astemo-work-context",
+    "score": 85,
+    "grade": "A",
+    "issues": [
+      "high dep count (8)"
+    ],
+    "lines": 230,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "design-system",
+    "score": 85,
+    "grade": "A",
+    "issues": [
+      "high dep count (8)"
+    ],
+    "lines": 154,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "hl-m365",
+    "score": 85,
+    "grade": "A",
+    "issues": [
+      "high dep count (5)"
+    ],
+    "lines": 271,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "reference-chain",
+    "score": 85,
+    "grade": "A",
+    "issues": [
+      "high dep count (5)"
+    ],
+    "lines": 164,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "shadow-intel",
+    "score": 85,
+    "grade": "A",
+    "issues": [
+      "high dep count (7)"
+    ],
+    "lines": 342,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "x-claims",
+    "score": 85,
+    "grade": "A",
+    "issues": [
+      "high dep count (4)"
+    ],
+    "lines": 166,
+    "category": "content/x"
+  },
+  {
+    "slug": "x-content-lab",
+    "score": 85,
+    "grade": "A",
+    "issues": [
+      "high dep count (4)"
+    ],
+    "lines": 159,
+    "category": "content/x"
+  },
+  {
+    "slug": "a2a-orchestrator",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 305,
+    "category": "dev/code"
+  },
+  {
+    "slug": "aacp",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 164,
+    "category": "system/security"
+  },
+  {
+    "slug": "astemo-chrome-bridge",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 221,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-colleague-attunement",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 194,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-onedrive",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 146,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-org-templates",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 210,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-template-fallback",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 147,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "bee-setup",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 209,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "bryan-voris-communication",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 100,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "cc-design-system",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 207,
+    "category": "design/ui"
+  },
+  {
+    "slug": "clawhip",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 205,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "command-center",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 290,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "craft-surface-router",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 156,
+    "category": "docs/office"
+  },
+  {
+    "slug": "disk-guard",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 400,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "electron",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 268,
+    "category": "automation/browser"
+  },
+  {
+    "slug": "enterprise-artifact-generator",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 262,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "fh4s-honda-response",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 339,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "fh4s-smartsheet-sync",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 159,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "focus-sync",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 238,
+    "category": "enterprise/work"
+  },
+  {
+    "slug": "friday-hud",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 173,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "friday-unified",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 329,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "gc-animation",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 116,
+    "category": "design/ui"
+  },
+  {
+    "slug": "gc-component",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 106,
+    "category": "design/ui"
+  },
+  {
+    "slug": "gc-design-system",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 296,
+    "category": "design/ui"
+  },
+  {
+    "slug": "ghen-takahashi-communication",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 105,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "github-ops",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 167,
+    "category": "dev/github"
+  },
+  {
+    "slug": "hl-auth-priority",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 198,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-chatgpt",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 269,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-cost-tracking",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 173,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-excel-online",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 178,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-fetch",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 262,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-hook-resilience",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 178,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-live-api-testing",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 196,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-session-tracking",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 273,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-subscription-maximize",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 264,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-subscription-research",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 222,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-task-routing",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 214,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-trmnl",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 268,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-value-ratio",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 158,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hosoya-haruyasu-communication",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 102,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "langgraph-agent",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 222,
+    "category": "dev/code"
+  },
+  {
+    "slug": "launchd-mise-service",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 161,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "m3-engg",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 362,
+    "category": "research/web"
+  },
+  {
+    "slug": "m3-quality-agent",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 185,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "m365-auth",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 106,
+    "category": "automation/auth"
+  },
+  {
+    "slug": "md-evolution",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 354,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "miki-cross-communication",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 105,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "music-reverse-engineering",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 136,
+    "category": "content/media"
+  },
+  {
+    "slug": "nnn-cli",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 181,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "omarchy-design-system",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 230,
+    "category": "design/ui"
+  },
+  {
+    "slug": "opencode-runtime-identity",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 202,
+    "category": "dev/code"
+  },
+  {
+    "slug": "patent-queue",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 215,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "pptx-visual-validation",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 207,
+    "category": "docs/pptx"
+  },
+  {
+    "slug": "red-teams-self-message",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 281,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "safari-applescript-js",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 189,
+    "category": "automation/browser"
+  },
+  {
+    "slug": "shadow-anchor",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 243,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-cast-cli",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 258,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-connect",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 221,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-continuity",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 249,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-copilot",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 189,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "shadow-mcp-gadgets",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 145,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-patterns",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 673,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-refactor",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 348,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-research-factory",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 334,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-secure",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 130,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-sidecast",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 331,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "shadow-summary",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 219,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "shadow-term",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 175,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "shadow-traces",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 455,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "shadow-trmnl",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 203,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadowarchive-storage-ops",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 125,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadowtech-design-system",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 423,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "storage-ops",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 151,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "teams-rich-compose",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 165,
+    "category": "automation/browser"
+  },
+  {
+    "slug": "triage-issue",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 151,
+    "category": "dev/code"
+  },
+  {
+    "slug": "trmnl-plugin-dev",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 434,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "write-a-skill",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 124,
+    "category": "dev/code"
+  },
+  {
+    "slug": "yt-recent-insights",
+    "score": 82,
+    "grade": "A",
+    "issues": [],
+    "lines": 389,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "x-operator",
+    "score": 80,
+    "grade": "A",
+    "issues": [
+      "high dep count (4)"
+    ],
+    "lines": 147,
+    "category": "content/x"
+  },
+  {
+    "slug": "algorithm-state-engine",
+    "score": 77,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 266,
+    "category": "tools/visualization"
+  },
+  {
+    "slug": "astemo-change-point-update",
+    "score": 77,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 171,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-design-system",
+    "score": 77,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 591,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-meeting-prep",
+    "score": 77,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 176,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-project-schema",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 140,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-smartsheet",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 110,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "bee-audit",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 204,
+    "category": "system/security"
+  },
+  {
+    "slug": "bee-brief",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 125,
+    "category": "system/security"
+  },
+  {
+    "slug": "bee-workflow",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 170,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "bitwarden-browser",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 138,
+    "category": "automation/cli"
+  },
+  {
+    "slug": "bookmark-obsidian",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 290,
+    "category": "memory/context"
+  },
+  {
+    "slug": "cambrian-framework",
+    "score": 77,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 163,
+    "category": "analysis/framework"
+  },
+  {
+    "slug": "caveman-compress",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 138,
+    "category": "memory/context"
+  },
+  {
+    "slug": "craft-command-surfaces",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 63,
+    "category": "craft/commands"
+  },
+  {
+    "slug": "data-dashboard",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 109,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "elixir-escript-mise",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 137,
+    "category": "dev/code"
+  },
+  {
+    "slug": "fh4s-drawing-check",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 148,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "fh4s-mlc-pv-alignment",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 184,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "focus-iterm-bridge",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 300,
+    "category": "enterprise/work"
+  },
+  {
+    "slug": "gh-recent",
+    "score": 77,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 178,
+    "category": "dev/github"
+  },
+  {
+    "slug": "github-cli-token-ops",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 155,
+    "category": "dev/github"
+  },
+  {
+    "slug": "github-skill",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 155,
+    "category": "dev/github"
+  },
+  {
+    "slug": "github-triage",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 175,
+    "category": "dev/github"
+  },
+  {
+    "slug": "hl-auto-index",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 142,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-break-even",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 146,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-calendar",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 129,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-calendar-native",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 112,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-cu-skills",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 144,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-cursor-session-hooks",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 211,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-safari-tabs",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 129,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-sharepoint",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 133,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "improve-codebase-architecture",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 112,
+    "category": "dev/testing"
+  },
+  {
+    "slug": "init-tune",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 170,
+    "category": "system/performance"
+  },
+  {
+    "slug": "iterm-mesh",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 165,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "kevin-butler-communication",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 99,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "linear-graphql-api",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 150,
+    "category": "dev/code"
+  },
+  {
+    "slug": "m3-standards-agent",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 132,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "mcp-dashboard-skin",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 115,
+    "category": "design/ui"
+  },
+  {
+    "slug": "mesh-context",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 191,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "migrate-to-shoehorn",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 149,
+    "category": "dev/testing"
+  },
+  {
+    "slug": "obsidian-live-transcript-routing",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 138,
+    "category": "memory/context"
+  },
+  {
+    "slug": "omx-team-headless-bootstrap",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 119,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "oracle-cloud",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 167,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "pptx-agent",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 134,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "qa",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 137,
+    "category": "dev/testing"
+  },
+  {
+    "slug": "qmd-memory",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 174,
+    "category": "memory/context"
+  },
+  {
+    "slug": "react-props-form-automation",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 103,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "reddit-recent-extract",
+    "score": 77,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 162,
+    "category": "content/x"
+  },
+  {
+    "slug": "redesign-taste-skill",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 111,
+    "category": "design/ui"
+  },
+  {
+    "slug": "research-bridge",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 108,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "reverse-github",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 172,
+    "category": "dev/github"
+  },
+  {
+    "slug": "scaffold-exercises",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 113,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "shadow-clone",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 117,
+    "category": "automation/browser"
+  },
+  {
+    "slug": "shadow-drop",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 151,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-patent-factory",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 258,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-pi",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 103,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-relay-agent",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 113,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "shadowarchive-offload",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 156,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadowarchive-root-audit",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 113,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadowpedia",
+    "score": 77,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 324,
+    "category": "research/knowledge"
+  },
+  {
+    "slug": "shadowtech-html-page",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 149,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "tailscale-mesh",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 305,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "voice-deconstruction",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 151,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "web-slide-studio",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 187,
+    "category": "docs/pptx"
+  },
+  {
+    "slug": "xteink-firmware",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 146,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "zoom-out",
+    "score": 77,
+    "grade": "B",
+    "issues": [],
+    "lines": 110,
+    "category": "memory/context"
+  },
+  {
+    "slug": "astemo-chrome",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 126,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-ingest",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 110,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "auth-matrix",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 396,
+    "category": "reference"
+  },
+  {
+    "slug": "bee",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 67,
+    "category": "content/intel"
+  },
+  {
+    "slug": "bee-status",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 162,
+    "category": "system/security"
+  },
+  {
+    "slug": "browser-surface-bridge",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 182,
+    "category": "automation/browser"
+  },
+  {
+    "slug": "caveman",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 82,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "caveman-review",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 81,
+    "category": "dev/github"
+  },
+  {
+    "slug": "cc-animation",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 65,
+    "category": "design/ui"
+  },
+  {
+    "slug": "cc-canvas-viz",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 61,
+    "category": "design/ui"
+  },
+  {
+    "slug": "cc-component",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 65,
+    "category": "design/ui"
+  },
+  {
+    "slug": "cc-dashboard",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 64,
+    "category": "design/ui"
+  },
+  {
+    "slug": "codex-latex",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 125,
+    "category": "dev/code"
+  },
+  {
+    "slug": "dataviz-color-data",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 207,
+    "category": "design/dataviz"
+  },
+  {
+    "slug": "de-standup",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 117,
+    "category": "enterprise/work"
+  },
+  {
+    "slug": "design-an-interface",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 101,
+    "category": "design/ui"
+  },
+  {
+    "slug": "domain-model",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 117,
+    "category": "dev/testing"
+  },
+  {
+    "slug": "experience-capture",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 68,
+    "category": "memory/context"
+  },
+  {
+    "slug": "gc-canvas-viz",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 65,
+    "category": "design/ui"
+  },
+  {
+    "slug": "gc-dashboard",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 67,
+    "category": "design/ui"
+  },
+  {
+    "slug": "gc-html-page",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 65,
+    "category": "design/ui"
+  },
+  {
+    "slug": "git-guardrails-claude-code",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 131,
+    "category": "dev/code"
+  },
+  {
+    "slug": "gog-cli",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 232,
+    "category": "system/security"
+  },
+  {
+    "slug": "hayakawa-communication",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 100,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "hl-provider-id-normalization",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 129,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-shadow-automation",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 89,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-shadow-cache",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 89,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-shadow-config-cycle",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 89,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-shadow-conversation-cycle",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 89,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-shadow-launchd",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 89,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-shadow-review",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 89,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-skillmesh",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 89,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hook-perf",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 134,
+    "category": "system/performance"
+  },
+  {
+    "slug": "linear-oauth-app-setup",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 125,
+    "category": "system/security"
+  },
+  {
+    "slug": "m3-drawing-agent",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 142,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "m3-honda-agent",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 143,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "m3-supplier-agent",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 143,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "m3-tracker-agent",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 127,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "m365-search",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 104,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "mesh-audit",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 184,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "mesh-scanner",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 118,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "mesh-security",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 128,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "mole",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 83,
+    "category": "system/ops"
+  },
+  {
+    "slug": "monorepo-pr-scoping",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 144,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "multi-model-query",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 116,
+    "category": "system/inference"
+  },
+  {
+    "slug": "naming-conventions",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 637,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "outlook-draft-guardrails",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 100,
+    "category": "enterprise/work"
+  },
+  {
+    "slug": "plastic-injection-molding",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 151,
+    "category": "engineering/design"
+  },
+  {
+    "slug": "remotion-render",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 350,
+    "category": "render/remotion"
+  },
+  {
+    "slug": "request-refactor-plan",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 104,
+    "category": "dev/code"
+  },
+  {
+    "slug": "ryoko-schaefer-communication",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 74,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "sabarish-communication-style",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 213,
+    "category": "enterprise/work"
+  },
+  {
+    "slug": "saitoh-ken-communication",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 76,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "self-observation-loop",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 84,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "setup-pre-commit",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 127,
+    "category": "dev/testing"
+  },
+  {
+    "slug": "shadow-airplay-skill",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 101,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-lists",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 452,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "shadow-notes",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 109,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "shadow-os-skills",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 130,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-typora-engine",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 198,
+    "category": "system/typora"
+  },
+  {
+    "slug": "shadowarchive-tiering",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 128,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "skill-surgery-rd",
+    "score": 72,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 189,
+    "category": "memory/context"
+  },
+  {
+    "slug": "sp-crawl",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 118,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "tdd",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 114,
+    "category": "dev/testing"
+  },
+  {
+    "slug": "to-issues",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 117,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "to-prd",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 107,
+    "category": "memory/context"
+  },
+  {
+    "slug": "ubiquitous-language",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 129,
+    "category": "dev/code"
+  },
+  {
+    "slug": "upscaler-status",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 145,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "wacli",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 130,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "zai-vision-worker",
+    "score": 72,
+    "grade": "B",
+    "issues": [],
+    "lines": 69,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "astemo-skill-assessment",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 76,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-xlsx",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 72,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "browser-photo-harvest",
+    "score": 67,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 106,
+    "category": "automation/browser"
+  },
+  {
+    "slug": "caveman-commit",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 91,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "cc-html-page",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 59,
+    "category": "design/ui"
+  },
+  {
+    "slug": "cloud-drive-routing",
+    "score": 67,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 144,
+    "category": "storage/cloud"
+  },
+  {
+    "slug": "fh4s-meeting-prep",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 43,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "gli",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 90,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "hl-cursor-routing",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 86,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-linkedin-public",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 98,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "last-widget-context",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 61,
+    "category": "craft/runtime"
+  },
+  {
+    "slug": "microsoft-whiteboard-cli",
+    "score": 67,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 132,
+    "category": "automation/browser"
+  },
+  {
+    "slug": "obsidian-vault",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 97,
+    "category": "memory/context"
+  },
+  {
+    "slug": "org-naming-schema-implementer",
+    "score": 67,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 199,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "pptx-extract",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 97,
+    "category": "docs/pptx"
+  },
+  {
+    "slug": "relative-absolute",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 54,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "shadow-adb",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 90,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-elicitation",
+    "score": 67,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 167,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-redteam",
+    "score": 67,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 122,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-self-healing-services",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 75,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-self-healing-systemd",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 86,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-self-improve",
+    "score": 67,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 144,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-service-discovery",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 67,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-smt-health",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 61,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-tui",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 84,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "shadow-x-live-theme-engine",
+    "score": 67,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 128,
+    "category": "content/x"
+  },
+  {
+    "slug": "spaces-skills",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 114,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "upscaler-brief",
+    "score": 67,
+    "grade": "B",
+    "issues": [],
+    "lines": 72,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "copilot-canvas-renderer",
+    "score": 66,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 341,
+    "category": ""
+  },
+  {
+    "slug": "template-surface-router",
+    "score": 65,
+    "grade": "B",
+    "issues": [
+      "no icon",
+      "high dep count (7)"
+    ],
+    "lines": 93,
+    "category": "workflow/template"
+  },
+  {
+    "slug": "astemo-directory",
+    "score": 62,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 136,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "codex-policy-steering",
+    "score": 62,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 80,
+    "category": "dev/code"
+  },
+  {
+    "slug": "echo-loop",
+    "score": 62,
+    "grade": "B",
+    "issues": [],
+    "lines": 55,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "fh4s-change-point-update",
+    "score": 62,
+    "grade": "B",
+    "issues": [],
+    "lines": 39,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "fh4s-ingest",
+    "score": 62,
+    "grade": "B",
+    "issues": [],
+    "lines": 35,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "grill-me",
+    "score": 62,
+    "grade": "B",
+    "issues": [],
+    "lines": 43,
+    "category": "dev/workflow"
+  },
+  {
+    "slug": "open-source-smart-glasses",
+    "score": 62,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 131,
+    "category": "hardware"
+  },
+  {
+    "slug": "persona-engine",
+    "score": 62,
+    "grade": "B",
+    "issues": [],
+    "lines": 51,
+    "category": "system/identity"
+  },
+  {
+    "slug": "re-skill-loop",
+    "score": 62,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 78,
+    "category": "memory/context"
+  },
+  {
+    "slug": "shadcn",
+    "score": 62,
+    "grade": "B",
+    "issues": [],
+    "lines": 43,
+    "category": "design/ui"
+  },
+  {
+    "slug": "shadow-report-externalization",
+    "score": 62,
+    "grade": "B",
+    "issues": [],
+    "lines": 71,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "system-design-101",
+    "score": 62,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 128,
+    "category": "dev/code"
+  },
+  {
+    "slug": "cua-driver",
+    "score": 61,
+    "grade": "B",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 887,
+    "category": ""
+  },
+  {
+    "slug": "astemo",
+    "score": 60,
+    "grade": "B",
+    "issues": [
+      "no icon",
+      "high dep count (9)"
+    ],
+    "lines": 46,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "goal-loop",
+    "score": 57,
+    "grade": "C",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 148,
+    "category": "enterprise/workflow"
+  },
+  {
+    "slug": "model-change-detector",
+    "score": 57,
+    "grade": "C",
+    "issues": [],
+    "lines": 36,
+    "category": "workflow/process"
+  },
+  {
+    "slug": "model-identity",
+    "score": 57,
+    "grade": "C",
+    "issues": [],
+    "lines": 37,
+    "category": "system/storage"
+  },
+  {
+    "slug": "openages-if-releases",
+    "score": 57,
+    "grade": "C",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 77,
+    "category": "productivity/apps"
+  },
+  {
+    "slug": "shadow-pattern-daily",
+    "score": 57,
+    "grade": "C",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 92,
+    "category": "mesh/shadow"
+  },
+  {
+    "slug": "codex-context",
+    "score": 56,
+    "grade": "C",
+    "issues": [
+      "no icon"
+    ],
+    "lines": 294,
+    "category": ""
+  },
+  {
+    "slug": "astemo-dropbox",
+    "score": 52,
+    "grade": "C",
+    "issues": [],
+    "lines": 48,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "astemo-program-context",
+    "score": 52,
+    "grade": "C",
+    "issues": [],
+    "lines": 43,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "hl-shadowprivacy",
+    "score": 52,
+    "grade": "C",
+    "issues": [],
+    "lines": 34,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "hl-shadowsecure",
+    "score": 52,
+    "grade": "C",
+    "issues": [],
+    "lines": 34,
+    "category": "automation/headless"
+  },
+  {
+    "slug": "shadow-code-identity",
+    "score": 52,
+    "grade": "C",
+    "issues": [],
+    "lines": 57,
+    "category": "enterprise/fh4s"
+  },
+  {
+    "slug": "astemo-md-mmd-design-system",
+    "score": 47,
+    "grade": "C",
+    "issues": [],
+    "lines": 36,
+    "category": "enterprise/astemo"
+  },
+  {
+    "slug": "edit-article",
+    "score": 47,
+    "grade": "C",
+    "issues": [],
+    "lines": 21,
+    "category": "workflow/process"
+  }
+]
