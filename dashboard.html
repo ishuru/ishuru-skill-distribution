@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skill Distribution Dashboard</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e5e5e5; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+  h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+  h2 { font-size: 20px; font-weight: 600; margin: 24px 0 12px; color: #a5b4fc; }
+  .subtitle { color: #737373; font-size: 14px; margin-bottom: 24px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .stat { background: #171717; border-radius: 12px; padding: 16px; border: 1px solid #262626; }
+  .stat .number { font-size: 32px; font-weight: 700; color: #a5b4fc; }
+  .stat .label { font-size: 12px; color: #737373; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; }
+  .accounts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .account { background: #171717; border-radius: 12px; padding: 16px; border: 1px solid #262626; }
+  .account .name { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+  .account .repos { margin-top: 8px; }
+  .account .repo { display: flex; justify-content: space-between; padding: 4px 0; font-size: 13px; }
+  .account .repo .count { color: #737373; }
+  .account a { color: #60a5fa; text-decoration: none; }
+  .account a:hover { text-decoration: underline; }
+  .bar { height: 6px; border-radius: 3px; background: #262626; margin-top: 4px; overflow: hidden; }
+  .bar .fill { height: 100%; border-radius: 3px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; padding: 8px 12px; background: #171717; color: #737373; font-weight: 600; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; }
+  td { padding: 8px 12px; border-top: 1px solid #262626; }
+  tr:hover { background: #171717; }
+  .route-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .route-card { background: #171717; border-radius: 12px; padding: 16px; border: 1px solid #262626; }
+  .route-card .task { font-weight: 600; color: #e5e5e5; margin-bottom: 8px; }
+  .route-card .provider { color: #a5b4fc; font-weight: 500; }
+  .route-card .fallback { color: #737373; font-size: 12px; }
+  .tier-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+  .tier-red { background: #991b1b; color: #fca5a5; }
+  .tier-amber { background: #92400e; color: #fcd34d; }
+  .tier-green { background: #166534; color: #86efac; }
+  .patterns { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+  .pattern { background: #171717; border-radius: 12px; padding: 16px; border: 1px solid #262626; }
+  .pattern .name { font-weight: 600; color: #c4b5fd; margin-bottom: 4px; }
+  .pattern .desc { font-size: 12px; color: #737373; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>⚡ Skill Distribution Dashboard</h1>
+  <div class="subtitle">Updated 2026-05-13 18:34 · 7 accounts · 11 repos · 396 skills</div>
+  
+  <div class="stats">
+    <div class="stat"><div class="number">317</div><div class="label">Total Skills</div></div>
+    <div class="stat"><div class="number">7</div><div class="label">Accounts</div></div>
+    <div class="stat"><div class="number">275</div><div class="label">With Icons</div></div>
+    <div class="stat"><div class="number">94</div><div class="label">With Deps</div></div>
+    <div class="stat"><div class="number">202</div><div class="label">Dep Edges</div></div>
+    <div class="stat"><div class="number">44</div><div class="label">Categories</div></div>
+  </div>
+
+  <h2>Accounts</h2>
+  <div class="accounts">
+    <div class="account" style="border-left: 3px solid #3b82f6">
+      <div class="name">ishuru <span style="color:#737373;font-weight:400;font-size:13px">(86 skills)</span></div>
+      <div class="repos">
+        <div class="repo"><a href="https://github.com/ishuru/ishuru-skills">ishuru-skills</a><span class="count">86</span></div>
+      </div>
+    </div>
+    <div class="account" style="border-left: 3px solid #8b5cf6">
+      <div class="name">s4b7-ai <span style="color:#737373;font-weight:400;font-size:13px">(40 skills)</span></div>
+      <div class="repos">
+        <div class="repo"><a href="https://github.com/s4b7-ai/s4b7-ai-skills">s4b7-ai-skills</a><span class="count">40</span></div>
+      </div>
+    </div>
+    <div class="account" style="border-left: 3px solid #10b981">
+      <div class="name">sabarish-duvvuru <span style="color:#737373;font-weight:400;font-size:13px">(46 skills)</span></div>
+      <div class="repos">
+        <div class="repo"><a href="https://github.com/sabarish-duvvuru/productivity-skills">productivity-skills</a><span class="count">46</span></div>
+      </div>
+    </div>
+    <div class="account" style="border-left: 3px solid #f59e0b">
+      <div class="name">theleostark <span style="color:#737373;font-weight:400;font-size:13px">(74 skills)</span></div>
+      <div class="repos">
+        <div class="repo"><a href="https://github.com/theleostark/infra-skills">infra-skills</a><span class="count">74</span></div>
+      </div>
+    </div>
+    <div class="account" style="border-left: 3px solid #ec4899">
+      <div class="name">ishork <span style="color:#737373;font-weight:400;font-size:13px">(38 skills)</span></div>
+      <div class="repos">
+        <div class="repo"><a href="https://github.com/ishork/research-skills">research-skills</a><span class="count">38</span></div>
+      </div>
+    </div>
+    <div class="account" style="border-left: 3px solid #ef4444">
+      <div class="name">sduvvuru-qx <span style="color:#737373;font-weight:400;font-size:13px">(102 skills)</span></div>
+      <div class="repos">
+        <div class="repo"><a href="https://github.com/sduvvuru-qx/enterprise-skills">enterprise-skills</a><span class="count">102</span></div>
+      </div>
+    </div>
+    <div class="account" style="border-left: 3px solid #06b6d4">
+      <div class="name">duvvurs <span style="color:#737373;font-weight:400;font-size:13px">(10 skills)</span></div>
+      <div class="repos">
+        <div class="repo"><a href="https://github.com/duvvurs/duvvur-skills">duvvur-skills</a><span class="count">10</span></div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Subscription Routing</h2>
+  <div class="route-grid">
+    <div class="route-card">
+      <div class="task">Deep Review</div>
+      <div class="provider">→ codex</div>
+      <div class="fallback">fallback: glm-global-coding-plan</div>
+    </div>
+    <div class="route-card">
+      <div class="task">Implementation</div>
+      <div class="provider">→ glm-global-coding-plan</div>
+      <div class="fallback">fallback: codex</div>
+    </div>
+    <div class="route-card">
+      <div class="task">Evaluation</div>
+      <div class="provider">→ chatgpt-plus</div>
+      <div class="fallback">fallback: glm-global-coding-plan</div>
+    </div>
+    <div class="route-card">
+      <div class="task">Cross Validation</div>
+      <div class="provider">→ chatgpt-plus</div>
+      <div class="fallback">fallback: codex</div>
+    </div>
+    <div class="route-card">
+      <div class="task">Vision</div>
+      <div class="provider">→ glm-global-coding-plan</div>
+      <div class="fallback">fallback: codex</div>
+    </div>
+    <div class="route-card">
+      <div class="task">Large Context</div>
+      <div class="provider">→ codex</div>
+      <div class="fallback">fallback: glm-global-coding-plan</div>
+    </div>
+    <div class="route-card">
+      <div class="task">Enterprise Red</div>
+      <div class="provider">→ codex</div>
+      <div class="fallback">fallback: local-ollama</div>
+    </div>
+  </div>
+
+  <h2>Privacy Tiers</h2>
+  <table>
+    <tr><th>Tier</th><th>GLM Allowed</th><th>Route To</th><th>Markers</th></tr>
+    <tr><td><span class="tier-badge tier-red">RED</span></td><td>❌ Never</td><td>codex / local-ollama</td><td>Astemo, Honda, FH4S, BOM, drawings, SASG</td></tr>
+    <tr><td><span class="tier-badge tier-amber">AMBER</span></td><td>⚠️ Conditional</td><td>Gemini preferred</td><td>Patent, mesh topology, personal financial</td></tr>
+    <tr><td><span class="tier-badge tier-green">GREEN</span></td><td>✅ Preferred</td><td>GLM primary</td><td>OSS code, public docs, UI prototypes, research</td></tr>
+  </table>
+
+  <h2>Multi-Agent Patterns</h2>
+  <div class="patterns">
+    <div class="pattern"><div class="name">Spawn + Evaluate</div><div class="desc">GLM primary → GPT-5.5 evaluation session for independent review</div></div>
+    <div class="pattern"><div class="name">Cross-Validate</div><div class="desc">Same prompt on 2+ models, compare outputs for critical decisions</div></div>
+    <div class="pattern"><div class="name">Parallel Batch</div><div class="desc">call_llm × N for batch classification/summarization simultaneously</div></div>
+    <div class="pattern"><div class="name">Context Isolation</div><div class="desc">Process large files via call_llm, keep main window clean</div></div>
+    <div class="pattern"><div class="name">Deep Reasoning</div><div class="desc">thinking:true on call_llm for complex subtasks without affecting main model</div></div>
+  </div>
+
+  <h2>Categories</h2>
+  <table>
+    <tr><th>Category</th><th>Skills</th><th>Icons</th><th>Dependencies</th></tr>
+    <tr>
+      <td>mesh/shadow</td>
+      <td>60</td>
+      <td>56 (93%)</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>enterprise/astemo</td>
+      <td>50</td>
+      <td>42 (84%)</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>automation/headless</td>
+      <td>35</td>
+      <td>35 (100%)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>enterprise/fh4s</td>
+      <td>26</td>
+      <td>26 (100%)</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>workflow/process</td>
+      <td>23</td>
+      <td>22 (95%)</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>design/ui</td>
+      <td>17</td>
+      <td>17 (100%)</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>dev/code</td>
+      <td>16</td>
+      <td>14 (87%)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>memory/context</td>
+      <td>13</td>
+      <td>11 (84%)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>automation/browser</td>
+      <td>8</td>
+      <td>5 (62%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>dev/github</td>
+      <td>7</td>
+      <td>6 (85%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>content/x</td>
+      <td>7</td>
+      <td>5 (71%)</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>system/security</td>
+      <td>6</td>
+      <td>5 (83%)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>enterprise/work</td>
+      <td>6</td>
+      <td>4 (66%)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>dev/testing</td>
+      <td>6</td>
+      <td>6 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>uncategorized</td>
+      <td>3</td>
+      <td>0 (0%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>docs/pptx</td>
+      <td>3</td>
+      <td>3 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>storage/cloud</td>
+      <td>2</td>
+      <td>1 (50%)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>docs/office</td>
+      <td>2</td>
+      <td>2 (100%)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>system/performance</td>
+      <td>2</td>
+      <td>2 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>tools/visualization</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>reference</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>content/intel</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>automation/cli</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>analysis/framework</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>craft/commands</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>design/dataviz</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>enterprise/workflow</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>dev/workflow</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>dev/deploy</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>craft/runtime</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>research/web</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>automation/auth</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>system/storage</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>system/ops</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>system/inference</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>content/media</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>hardware</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>productivity/apps</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>system/identity</td>
+      <td>1</td>
+      <td>1 (100%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>engineering/design</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>render/remotion</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>system/typora</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>research/knowledge</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>workflow/template</td>
+      <td>1</td>
+      <td>0 (0%)</td>
+      <td>7</td>
+    </tr>
+  </table>
+
+  <h2>Install</h2>
+  <pre style="background:#171717;padding:16px;border-radius:8px;font-size:13px;color:#a5b4fc">curl -sL https://raw.githubusercontent.com/ishuru/ishuru-skill-distribution/main/install.sh | bash</pre>
+
+</div>
+</body>
+</html>

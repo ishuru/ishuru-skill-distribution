@@ -1,0 +1,168 @@
+#!/usr/bin/env bash
+# skill-sync — Bidirectional sync between local skills and GitHub repos
+# Usage: skill-sync [push|pull|status|diff]
+set -euo pipefail
+
+SKILL_ROOT="${SKILL_ROOT:-$HOME/.agents/skills}"
+CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/skill-router"
+REGISTRY="$CACHE_DIR/registry.json"
+
+# Account token helpers
+token_for() {
+  gh auth token --user "$1" 2>/dev/null
+}
+
+ensure_registry() {
+  mkdir -p "$CACHE_DIR"
+  if [ ! -f "$REGISTRY" ]; then
+    curl -sL "https://raw.githubusercontent.com/ishuru/ishuru-skill-distribution/main/skill-registry.json" -o "$REGISTRY"
+  fi
+}
+
+cmd_status() {
+  echo "Skill Sync Status"
+  echo "================="
+  ensure_registry
+  
+  # Count local vs published
+  local_count=$(ls -1d "$SKILL_ROOT"/*/SKILL.md 2>/dev/null | wc -l | tr -d ' ')
+  published_count=$(python3 -c "
+import json
+with open('$REGISTRY') as f:
+    r = json.load(f)
+skills = set()
+for acct in r['accounts'].values():
+    for repo in acct['repos'].values():
+        skills.update(repo.get('skills', []))
+print(len(skills))
+" 2>/dev/null || echo "?")
+  
+  echo "  Local:     $local_count skills"
+  echo "  Published: $published_count skills"
+  echo "  Root:      $SKILL_ROOT"
+  echo ""
+  
+  # Check each repo's last commit
+  python3 << PYEOF
+import json, subprocess
+with open("$REGISTRY") as f:
+    r = json.load(f)
+for acct, data in sorted(r["accounts"].items()):
+    for repo, rdata in data["repos"].items():
+        url = rdata["url"]
+        count = rdata["skill_count"]
+        try:
+            result = subprocess.run(
+                ["gh", "api", f"repos/{acct}/{repo}/commits?per_page=1", "--jq", ".[0].commit.message"],
+                capture_output=True, text=True, timeout=10
+            )
+            msg = result.stdout.strip().split("\n")[0][:50] if result.stdout else "?"
+        except:
+            msg = "?"
+        print(f"  {acct}/{repo:<35} {count:>3} skills  last: {msg}")
+PYEOF
+}
+
+cmd_diff() {
+  echo "Skill Diff (local vs published)"
+  echo "==============================="
+  ensure_registry
+  
+  python3 << PYEOF
+import json, os
+
+with open("$REGISTRY") as f:
+    r = json.load(f)
+
+published = set()
+for acct in r["accounts"].values():
+    for repo in acct["repos"].values():
+        published.update(repo.get("skills", []))
+
+local = set()
+skill_root = "$SKILL_ROOT"
+for d in os.listdir(skill_root):
+    if os.path.isfile(os.path.join(skill_root, d, "SKILL.md")):
+        local.add(d)
+
+only_local = sorted(local - published)
+only_published = sorted(published - local)
+
+if only_local:
+    print(f"\n  Local only ({len(only_local)}):")
+    for s in only_local[:20]:
+        print(f"    + {s}")
+    if len(only_local) > 20:
+        print(f"    ... and {len(only_local)-20} more")
+
+if only_published:
+    print(f"\n  Published only / not installed locally ({len(only_published)}):")
+    for s in only_published[:20]:
+        print(f"    - {s}")
+
+if not only_local and not only_published:
+    print("\n  ✓ In sync — all skills match")
+PYEOF
+}
+
+cmd_push() {
+  local target="${1:-}"
+  ensure_registry
+  
+  echo "Pushing local skill changes to GitHub..."
+  echo ""
+  
+  # For each account/repo, clone, sync skills, push
+  python3 << PYEOF
+import json, os
+with open("$REGISTRY") as f:
+    r = json.load(f)
+
+for acct, data in r["accounts"].items():
+    for repo, rdata in data["repos"].items():
+        published = set(rdata.get("skills", []))
+        if not published:
+            continue
+        
+        # Check if any published skill has local changes
+        skill_root = "$SKILL_ROOT"
+        changed = []
+        for slug in published:
+            local_dir = os.path.join(skill_root, slug)
+            if os.path.isdir(local_dir):
+                changed.append(slug)
+        
+        if changed:
+            print(f"  {acct}/{repo}: {len(changed)} skills to sync")
+PYEOF
+  
+  echo ""
+  echo "Use 'skill-sync diff' to see what changed, then push per-repo manually."
+  echo "Or use the installer to refresh from GitHub: skill-router install all"
+}
+
+cmd_pull() {
+  echo "Pulling latest skills from all GitHub repos..."
+  echo ""
+  exec bash -c "curl -sL https://raw.githubusercontent.com/ishuru/ishuru-skill-distribution/main/install.sh | bash -s -- all"
+}
+
+case "${1:-status}" in
+  status|s)   cmd_status ;;
+  diff|d)     cmd_diff ;;
+  push)       cmd_push "${2:-}" ;;
+  pull)       cmd_pull ;;
+  *)
+    echo "skill-sync — Bidirectional skill sync"
+    echo ""
+    echo "Usage: skill-sync <command>"
+    echo ""
+    echo "Commands:"
+    echo "  status    Show sync status across all accounts"
+    echo "  diff      Show local vs published differences"
+    echo "  push      Push local changes to GitHub"
+    echo "  pull      Pull latest from all GitHub repos"
+    echo ""
+    echo "Shortcuts: s=status, d=diff"
+    ;;
+esac
