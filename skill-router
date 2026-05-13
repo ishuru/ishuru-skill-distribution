@@ -1,0 +1,306 @@
+#!/usr/bin/env bash
+# skill-router — Multi-account skill discovery, dependency resolution, and subscription routing
+# Usage: skill-router <command> [args]
+set -euo pipefail
+
+REGISTRY_URL="https://raw.githubusercontent.com/ishuru/ishuru-skill-distribution/main/skill-registry.json"
+METADATA_URL="https://raw.githubusercontent.com/ishuru/ishuru-skill-distribution/main/skill-metadata.json"
+CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/skill-router"
+CACHE_TTL=3600  # 1 hour
+
+# Colors
+R='\033[0;31m' G='\033[0;32m' Y='\033[0;33m' B='\033[0;34m' C='\033[0;36m' NC='\033[0m'
+
+ensure_cache() {
+  mkdir -p "$CACHE_DIR"
+  local reg="$CACHE_DIR/registry.json"
+  local meta="$CACHE_DIR/metadata.json"
+  
+  if [ ! -f "$reg" ] || [ $(($(date +%s) - $(stat -f %m "$reg" 2>/dev/null || echo 0))) -gt $CACHE_TTL ]; then
+    curl -sL "$REGISTRY_URL" -o "$reg" 2>/dev/null || true
+  fi
+  if [ ! -f "$meta" ] || [ $(($(date +%s) - $(stat -f %m "$meta" 2>/dev/null || echo 0))) -gt $CACHE_TTL ]; then
+    curl -sL "$METADATA_URL" -o "$meta" 2>/dev/null || true
+  fi
+}
+
+cmd_search() {
+  local query="${1:-}"
+  if [ -z "$query" ]; then
+    echo "Usage: skill-router search <query>"
+    exit 1
+  fi
+  
+  ensure_cache
+  local meta="$CACHE_DIR/metadata.json"
+  local reg="$CACHE_DIR/registry.json"
+  
+  echo -e "${B}Searching for: ${C}$query${NC}"
+  echo ""
+  
+  # Search in metadata (name, slug, description, category)
+  python3 << PYEOF
+import json, sys
+query = "$query".lower()
+with open("$meta") as f:
+    skills = json.load(f)
+with open("$reg") as f:
+    registry = json.load(f)
+
+# Build location map
+location = {}
+for acct, data in registry["accounts"].items():
+    for repo, rdata in data["repos"].items():
+        for s in rdata.get("skills", []):
+            location[s] = f"{acct}/{repo}"
+
+results = []
+for s in skills:
+    score = 0
+    text = f"{s.get('slug','')} {s.get('name','')} {s.get('description','')} {s.get('category','')}".lower()
+    for term in query.split():
+        if term in text:
+            score += 1
+    if score > 0:
+        slug = s.get('slug', '?')
+        results.append({
+            'slug': slug,
+            'name': s.get('name', slug),
+            'category': s.get('category', ''),
+            'location': location.get(slug, 'local-only'),
+            'deps': len(s.get('depends_on', [])),
+            'lines': s.get('line_count', 0),
+            'score': score
+        })
+
+results.sort(key=lambda x: -x['score'])
+for r in results[:20]:
+    deps = f" deps:{r['deps']}" if r['deps'] > 0 else ""
+    print(f"  {r['slug']:<35} {r['category']:<25} {r['location']:<30}{deps}")
+
+if not results:
+    print("  No matches found")
+PYEOF
+}
+
+cmd_deps() {
+  local skill="${1:-}"
+  if [ -z "$skill" ]; then
+    echo "Usage: skill-router deps <skill-slug>"
+    exit 1
+  fi
+  
+  ensure_cache
+  local meta="$CACHE_DIR/metadata.json"
+  
+  echo -e "${B}Dependency tree for: ${C}$skill${NC}"
+  echo ""
+  
+  python3 << PYEOF
+import json
+
+with open("$CACHE_DIR/metadata.json") as f:
+    skills = json.load(f)
+
+lookup = {s['slug']: s for s in skills}
+
+def print_tree(slug, depth=0, visited=None):
+    if visited is None:
+        visited = set()
+    if slug in visited:
+        print("  " * depth + "↻ CYCLE: " + slug)
+        return
+    visited.add(slug)
+    
+    s = lookup.get(slug)
+    if not s:
+        print("  " * depth + "✗ MISSING: " + slug)
+        return
+    
+    icon = "📦" if s.get('has_references') else "📄"
+    deps = s.get('depends_on', [])
+    dep_str = f" → [{', '.join(deps)}]" if deps else ""
+    print("  " * depth + f"{icon} {slug}{dep_str}")
+    
+    for dep in deps:
+        print_tree(dep, depth + 1, visited.copy())
+
+print_tree("$skill")
+PYEOF
+}
+
+cmd_route() {
+  local task_type="${1:-}"
+  if [ -z "$task_type" ]; then
+    echo "Usage: skill-router route <task-type>"
+    echo ""
+    echo "Task types: deep_review, implementation, evaluation, cross_validation,"
+    echo "  vision, large_context, enterprise_red, editor_task, web_search"
+    exit 1
+  fi
+  
+  ensure_cache
+  local reg="$CACHE_DIR/registry.json"
+  
+  echo -e "${B}Routing: ${C}$task_type${NC}"
+  echo ""
+  
+  python3 << PYEOF
+import json
+with open("$CACHE_DIR/registry.json") as f:
+    r = json.load(f)
+
+matrix = r["subscription_routing"]["routing_matrix"]
+providers = r["subscription_routing"]["providers"]
+
+task = "$task_type"
+rule = matrix.get(task)
+
+if not rule:
+    print("  Unknown task type. Available:")
+    for t in matrix:
+        print(f"    {t}")
+    sys.exit(1)
+
+primary = rule["primary"]
+fallback = rule.get("fallback", "none")
+
+p = providers.get(primary, {})
+f = providers.get(fallback, {})
+
+print(f"  Primary:   {primary} ({p.get('model','?')} | {p.get('context','?')} | {p.get('type','?')} | privacy: {p.get('privacy','?')})")
+print(f"  Fallback:  {fallback} ({f.get('model','?')} | {f.get('context','?')} | {f.get('type','?')})")
+print()
+
+# Privacy gate
+print("  GLM-001 Privacy Gate:")
+print("    RED   enterprise → codex or local only")
+print("    AMBER conditional → Gemini preferred")
+print("    GREEN unrestricted → GLM primary (maximize free tier)")
+PYEOF
+}
+
+cmd_health() {
+  ensure_cache
+  local meta="$CACHE_DIR/metadata.json"
+  local reg="$CACHE_DIR/registry.json"
+  
+  echo -e "${B}Skill Health Report${NC}"
+  echo ""
+  
+  python3 << PYEOF
+import json
+
+with open("$CACHE_DIR/metadata.json") as f:
+    skills = json.load(f)
+with open("$CACHE_DIR/registry.json") as f:
+    registry = json.load(f)
+
+# Build location map
+published = set()
+for acct, data in registry["accounts"].items():
+    for repo, rdata in data["repos"].items():
+        published.update(rdata.get("skills", []))
+
+# Health scoring
+total = len(skills)
+published_count = sum(1 for s in skills if s['slug'] in published)
+with_icon = sum(1 for s in skills if s.get('has_icon'))
+with_deps = sum(1 for s in skills if s.get('depends_on'))
+with_desc = sum(1 for s in skills if s.get('description'))
+thin_skills = [s for s in skills if s.get('line_count', 0) < 30]
+thick_skills = [s for s in skills if s.get('line_count', 0) > 200]
+
+print(f"  Total skills:       {total}")
+print(f"  Published:          {published_count} ({published_count*100//total}%)")
+print(f"  With icons:         {with_icon} ({with_icon*100//total}%)")
+print(f"  With dependencies:  {with_deps}")
+print(f"  With descriptions:  {with_desc}")
+print(f"  Thin (<30 lines):   {len(thin_skills)}")
+print(f"  Thick (>200 lines): {len(thick_skills)}")
+print()
+
+# Dependency health
+dep_missing = 0
+dep_graph = {}
+for s in skills:
+    slug = s['slug']
+    deps = s.get('depends_on', [])
+    dep_graph[slug] = deps
+    for d in deps:
+        if d not in {x['slug'] for x in skills}:
+            dep_missing += 1
+
+print(f"  Dependency issues:  {dep_missing} missing dependencies")
+if dep_missing > 0:
+    for s in skills:
+        for d in s.get('depends_on', []):
+            if d not in {x['slug'] for x in skills}:
+                print(f"    ✗ {s['slug']} → {d} (MISSING)")
+
+print()
+
+# By category health
+cats = {}
+for s in skills:
+    cat = s.get('category', 'uncategorized')
+    cats.setdefault(cat, []).append(s)
+
+print("  Categories by size:")
+for cat, items in sorted(cats.items(), key=lambda x: -len(x[1]))[:10]:
+    icon_pct = sum(1 for i in items if i.get('has_icon')) * 100 // len(items)
+    pub_pct = sum(1 for i in items if i['slug'] in published) * 100 // len(items)
+    print(f"    {len(items):3d}  {cat:<30}  icons:{icon_pct:3d}%  published:{pub_pct:3d}%")
+PYEOF
+}
+
+cmd_accounts() {
+  ensure_cache
+  local reg="$CACHE_DIR/registry.json"
+  
+  echo -e "${B}Account Overview${NC}"
+  echo ""
+  
+  python3 << PYEOF
+import json
+with open("$CACHE_DIR/registry.json") as f:
+    r = json.load(f)
+
+for acct, data in r["accounts"].items():
+    total = sum(repo["skill_count"] for repo in data["repos"].values())
+    repos = len(data["repos"])
+    print(f"  {acct:<22} {repos} repos, {total} skills")
+    for repo, rdata in data["repos"].items():
+        print(f"    └─ {repo:<35} {rdata['skill_count']:3d} skills")
+    print()
+PYEOF
+}
+
+cmd_install() {
+  local target="${1:-all}"
+  exec bash -c "curl -sL https://raw.githubusercontent.com/ishuru/ishuru-skill-distribution/main/install.sh | bash -s -- $target"
+}
+
+case "${1:-help}" in
+  search|s)   cmd_search "${2:-}" ;;
+  deps|d)     cmd_deps "${2:-}" ;;
+  route|r)    cmd_route "${2:-}" ;;
+  health|h)   cmd_health ;;
+  accounts|a) cmd_accounts ;;
+  install|i)  cmd_install "${2:-all}" ;;
+  *)
+    echo "skill-router — Multi-account skill discovery and routing"
+    echo ""
+    echo "Usage: skill-router <command> [args]"
+    echo ""
+    echo "Commands:"
+    echo "  search <query>   Search skills by name, description, category"
+    echo "  deps <slug>      Show dependency tree for a skill"
+    echo "  route <task>     Route task type to optimal subscription"
+    echo "  health           Show skill health report"
+    echo "  accounts         Show account overview"
+    echo "  install [cat]    Install skills (all or category)"
+    echo ""
+    echo "Shortcuts: s=search, d=deps, r=route, h=health, a=accounts, i=install"
+    ;;
+esac
