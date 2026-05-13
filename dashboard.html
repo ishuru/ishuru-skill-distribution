@@ -5,432 +5,1229 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Skill Distribution Dashboard</title>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+  
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e5e5e5; }
-  .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
-  h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
-  h2 { font-size: 20px; font-weight: 600; margin: 24px 0 12px; color: #a5b4fc; }
-  .subtitle { color: #737373; font-size: 14px; margin-bottom: 24px; }
-  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 24px; }
-  .stat { background: #171717; border-radius: 12px; padding: 16px; border: 1px solid #262626; }
-  .stat .number { font-size: 32px; font-weight: 700; color: #a5b4fc; }
-  .stat .label { font-size: 12px; color: #737373; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; }
-  .accounts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-bottom: 24px; }
-  .account { background: #171717; border-radius: 12px; padding: 16px; border: 1px solid #262626; }
-  .account .name { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
-  .account .repos { margin-top: 8px; }
-  .account .repo { display: flex; justify-content: space-between; padding: 4px 0; font-size: 13px; }
-  .account .repo .count { color: #737373; }
-  .account a { color: #60a5fa; text-decoration: none; }
-  .account a:hover { text-decoration: underline; }
-  .bar { height: 6px; border-radius: 3px; background: #262626; margin-top: 4px; overflow: hidden; }
-  .bar .fill { height: 100%; border-radius: 3px; }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  th { text-align: left; padding: 8px 12px; background: #171717; color: #737373; font-weight: 600; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; }
-  td { padding: 8px 12px; border-top: 1px solid #262626; }
-  tr:hover { background: #171717; }
-  .route-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
-  .route-card { background: #171717; border-radius: 12px; padding: 16px; border: 1px solid #262626; }
-  .route-card .task { font-weight: 600; color: #e5e5e5; margin-bottom: 8px; }
-  .route-card .provider { color: #a5b4fc; font-weight: 500; }
-  .route-card .fallback { color: #737373; font-size: 12px; }
-  .tier-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
-  .tier-red { background: #991b1b; color: #fca5a5; }
-  .tier-amber { background: #92400e; color: #fcd34d; }
-  .tier-green { background: #166534; color: #86efac; }
-  .patterns { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
-  .pattern { background: #171717; border-radius: 12px; padding: 16px; border: 1px solid #262626; }
-  .pattern .name { font-weight: 600; color: #c4b5fd; margin-bottom: 4px; }
-  .pattern .desc { font-size: 12px; color: #737373; }
+  
+  :root {
+    --bg-primary: #09090b;
+    --bg-secondary: #18181b;
+    --bg-tertiary: #27272a;
+    --border: #3f3f46;
+    --text-primary: #fafafa;
+    --text-secondary: #a1a1aa;
+    --text-muted: #71717a;
+    --accent-indigo: #818cf8;
+    --accent-blue: #60a5fa;
+    --accent-emerald: #34d399;
+    --accent-amber: #fbbf24;
+    --accent-rose: #fb7185;
+    --accent-violet: #a78bfa;
+    --accent-cyan: #22d3ee;
+    --accent-orange: #fb923c;
+    --radius: 16px;
+    --radius-sm: 10px;
+    --radius-xs: 6px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.2);
+    --shadow-lg: 0 10px 30px rgba(0,0,0,0.4);
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .app {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+  
+  /* ── Header ── */
+  .header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--bg-tertiary);
+  }
+  
+  .header-left h1 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, var(--accent-indigo), var(--accent-violet));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .header-left .tagline {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  
+  .badge-green {
+    background: rgba(52, 211, 153, 0.12);
+    color: var(--accent-emerald);
+    border: 1px solid rgba(52, 211, 153, 0.2);
+  }
+  
+  .badge-blue {
+    background: rgba(96, 165, 250, 0.12);
+    color: var(--accent-blue);
+    border: 1px solid rgba(96, 165, 250, 0.2);
+  }
+  
+  .badge-amber {
+    background: rgba(251, 191, 36, 0.12);
+    color: var(--accent-amber);
+    border: 1px solid rgba(251, 191, 36, 0.2);
+  }
+  
+  .badge-rose {
+    background: rgba(251, 113, 133, 0.12);
+    color: var(--accent-rose);
+    border: 1px solid rgba(251, 113, 133, 0.2);
+  }
+  
+  .pulse {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent-emerald);
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.4); }
+    50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(52, 211, 153, 0); }
+  }
+  
+  /* ── Hero Stats ── */
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  
+  .hero-stat {
+    background: var(--bg-secondary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    padding: 20px 16px;
+    text-align: center;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+  
+  .hero-stat:hover {
+    border-color: var(--border);
+    transform: translateY(-2px);
+  }
+  
+  .hero-stat .value {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -1px;
+  }
+  
+  .hero-stat .label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+  
+  .val-indigo { color: var(--accent-indigo); }
+  .val-blue { color: var(--accent-blue); }
+  .val-emerald { color: var(--accent-emerald); }
+  .val-amber { color: var(--accent-amber); }
+  .val-rose { color: var(--accent-rose); }
+  .val-violet { color: var(--accent-violet); }
+  
+  /* ── Section ── */
+  .section {
+    margin-bottom: 32px;
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .section-header h2 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+  
+  .section-header .line {
+    flex: 1;
+    height: 1px;
+    background: var(--bg-tertiary);
+  }
+  
+  /* ── Account Cards ── */
+  .accounts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 12px;
+  }
+  
+  .account-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+  
+  .account-card:hover {
+    border-color: var(--border);
+    transform: translateY(-1px);
+  }
+  
+  .account-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+  }
+  
+  .account-card .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .account-card .acct-name {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .account-card .acct-domain {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+  
+  .account-card .skill-count {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -1px;
+  }
+  
+  .account-card .skill-count-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    text-align: right;
+  }
+  
+  .account-card .repo-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-xs);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  .account-card .repo-link:hover {
+    background: var(--border);
+    color: var(--text-primary);
+  }
+  
+  .account-card .mini-bar {
+    margin-top: 12px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--bg-tertiary);
+    overflow: hidden;
+  }
+  
+  .account-card .mini-bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.6s ease;
+  }
+  
+  /* ── Grade Ring ── */
+  .grade-section {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 24px;
+    align-items: center;
+  }
+  
+  .grade-ring-container {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+  }
+  
+  .grade-ring-container svg {
+    transform: rotate(-90deg);
+  }
+  
+  .grade-ring-center {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .grade-ring-center .big {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--accent-emerald);
+  }
+  
+  .grade-ring-center .small {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .grade-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .grade-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .grade-bar-row .grade-label {
+    font-size: 14px;
+    font-weight: 700;
+    width: 24px;
+    text-align: center;
+  }
+  
+  .grade-bar-row .bar-track {
+    flex: 1;
+    height: 10px;
+    border-radius: 5px;
+    background: var(--bg-tertiary);
+    overflow: hidden;
+  }
+  
+  .grade-bar-row .bar-fill {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.8s ease;
+  }
+  
+  .grade-bar-row .bar-count {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    width: 36px;
+    text-align: right;
+  }
+  
+  /* ── Category Table ── */
+  .cat-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 13px;
+  }
+  
+  .cat-table thead th {
+    padding: 10px 16px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    text-align: left;
+    border-bottom: 1px solid var(--bg-tertiary);
+    position: sticky;
+    top: 0;
+    background: var(--bg-secondary);
+  }
+  
+  .cat-table tbody tr {
+    transition: background 0.15s;
+  }
+  
+  .cat-table tbody tr:hover {
+    background: var(--bg-tertiary);
+  }
+  
+  .cat-table td {
+    padding: 10px 16px;
+    border-bottom: 1px solid rgba(63, 63, 70, 0.3);
+  }
+  
+  .cat-name {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .cat-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  
+  .cat-bar {
+    height: 6px;
+    border-radius: 3px;
+    background: var(--bg-tertiary);
+    width: 80px;
+    overflow: hidden;
+  }
+  
+  .cat-bar-inner {
+    height: 100%;
+    border-radius: 3px;
+  }
+  
+  /* ── Dependency Graph ── */
+  .dep-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 8px;
+  }
+  
+  .dep-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius-xs);
+    font-size: 13px;
+    transition: border-color 0.2s;
+  }
+  
+  .dep-item:hover {
+    border-color: var(--border);
+  }
+  
+  .dep-item .dep-name {
+    font-weight: 600;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .dep-item .dep-count {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--accent-indigo);
+  }
+  
+  .dep-item .dep-label {
+    font-size: 10px;
+    color: var(--text-muted);
+  }
+  
+  /* ── Routing Matrix ── */
+  .routing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .route-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    padding: 16px;
+    transition: border-color 0.2s;
+  }
+  
+  .route-card:hover {
+    border-color: var(--border);
+  }
+  
+  .route-task {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+  
+  .route-provider {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  
+  .route-fallback {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+  
+  .route-arrow {
+    color: var(--accent-indigo);
+    margin-right: 4px;
+  }
+  
+  /* ── Privacy Tiers ── */
+  .tier-row {
+    display: grid;
+    grid-template-columns: 90px 100px 200px 1fr;
+    gap: 16px;
+    align-items: center;
+    padding: 14px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    margin-bottom: 8px;
+  }
+  
+  .tier-badge {
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  
+  .tier-red { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.25); }
+  .tier-amber { background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.25); }
+  .tier-green { background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.25); }
+  
+  .tier-glm {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .tier-route {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .tier-markers {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  
+  /* ── Patterns ── */
+  .patterns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 10px;
+  }
+  
+  .pattern-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    padding: 16px;
+  }
+  
+  .pattern-card .p-icon {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .pattern-card .p-name {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  
+  .pattern-card .p-desc {
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+  
+  /* ── Install Footer ── */
+  .install-bar {
+    margin-top: 40px;
+    padding: 24px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .install-bar .install-label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .install-bar .install-cmd {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 13px;
+    padding: 10px 20px;
+    background: var(--bg-primary);
+    border-radius: var(--radius-xs);
+    color: var(--accent-indigo);
+    border: 1px solid var(--bg-tertiary);
+    flex: 1;
+  }
+  
+  .install-bar .install-meta {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    .hero-stats { grid-template-columns: repeat(3, 1fr); }
+    .accounts-grid { grid-template-columns: 1fr; }
+    .grade-section { grid-template-columns: 1fr; }
+    .tier-row { grid-template-columns: 1fr; gap: 8px; }
+  }
 </style>
 </head>
 <body>
-<div class="container">
-  <h1>⚡ Skill Distribution Dashboard</h1>
-  <div class="subtitle">Updated 2026-05-13 18:34 · 7 accounts · 11 repos · 396 skills</div>
+<div class="app">
+
+  <!-- ━━ Header ━━ -->
+  <div class="header">
+    <div class="header-left">
+      <h1>Skill Distribution Network</h1>
+      <div class="tagline">7 accounts · 11 repos · 317 unique skills · Multi-agent routing engine</div>
+    </div>
+    <div class="header-right">
+      <span class="badge badge-green"><span class="pulse"></span> All Systems Nominal</span>
+      <span class="badge badge-blue">v4.0.0</span>
+    </div>
+  </div>
   
-  <div class="stats">
-    <div class="stat"><div class="number">317</div><div class="label">Total Skills</div></div>
-    <div class="stat"><div class="number">7</div><div class="label">Accounts</div></div>
-    <div class="stat"><div class="number">275</div><div class="label">With Icons</div></div>
-    <div class="stat"><div class="number">94</div><div class="label">With Deps</div></div>
-    <div class="stat"><div class="number">202</div><div class="label">Dep Edges</div></div>
-    <div class="stat"><div class="number">44</div><div class="label">Categories</div></div>
-  </div>
-
-  <h2>Accounts</h2>
-  <div class="accounts">
-    <div class="account" style="border-left: 3px solid #3b82f6">
-      <div class="name">ishuru <span style="color:#737373;font-weight:400;font-size:13px">(86 skills)</span></div>
-      <div class="repos">
-        <div class="repo"><a href="https://github.com/ishuru/ishuru-skills">ishuru-skills</a><span class="count">86</span></div>
-      </div>
+  <!-- ━━ Hero Stats ━━ -->
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="value val-indigo">317</div>
+      <div class="label">Skills</div>
     </div>
-    <div class="account" style="border-left: 3px solid #8b5cf6">
-      <div class="name">s4b7-ai <span style="color:#737373;font-weight:400;font-size:13px">(40 skills)</span></div>
-      <div class="repos">
-        <div class="repo"><a href="https://github.com/s4b7-ai/s4b7-ai-skills">s4b7-ai-skills</a><span class="count">40</span></div>
-      </div>
+    <div class="hero-stat">
+      <div class="value val-blue">7</div>
+      <div class="label">Accounts</div>
     </div>
-    <div class="account" style="border-left: 3px solid #10b981">
-      <div class="name">sabarish-duvvuru <span style="color:#737373;font-weight:400;font-size:13px">(46 skills)</span></div>
-      <div class="repos">
-        <div class="repo"><a href="https://github.com/sabarish-duvvuru/productivity-skills">productivity-skills</a><span class="count">46</span></div>
-      </div>
+    <div class="hero-stat">
+      <div class="value val-emerald">11</div>
+      <div class="label">Repos</div>
     </div>
-    <div class="account" style="border-left: 3px solid #f59e0b">
-      <div class="name">theleostark <span style="color:#737373;font-weight:400;font-size:13px">(74 skills)</span></div>
-      <div class="repos">
-        <div class="repo"><a href="https://github.com/theleostark/infra-skills">infra-skills</a><span class="count">74</span></div>
-      </div>
+    <div class="hero-stat">
+      <div class="value val-amber">202</div>
+      <div class="label">Dep Edges</div>
     </div>
-    <div class="account" style="border-left: 3px solid #ec4899">
-      <div class="name">ishork <span style="color:#737373;font-weight:400;font-size:13px">(38 skills)</span></div>
-      <div class="repos">
-        <div class="repo"><a href="https://github.com/ishork/research-skills">research-skills</a><span class="count">38</span></div>
-      </div>
+    <div class="hero-stat">
+      <div class="value val-violet">44</div>
+      <div class="label">Categories</div>
     </div>
-    <div class="account" style="border-left: 3px solid #ef4444">
-      <div class="name">sduvvuru-qx <span style="color:#737373;font-weight:400;font-size:13px">(102 skills)</span></div>
-      <div class="repos">
-        <div class="repo"><a href="https://github.com/sduvvuru-qx/enterprise-skills">enterprise-skills</a><span class="count">102</span></div>
-      </div>
-    </div>
-    <div class="account" style="border-left: 3px solid #06b6d4">
-      <div class="name">duvvurs <span style="color:#737373;font-weight:400;font-size:13px">(10 skills)</span></div>
-      <div class="repos">
-        <div class="repo"><a href="https://github.com/duvvurs/duvvur-skills">duvvur-skills</a><span class="count">10</span></div>
-      </div>
+    <div class="hero-stat">
+      <div class="value val-rose">22</div>
+      <div class="label">Tests Pass</div>
     </div>
   </div>
+  
+  <!-- ━━ Account Cards ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Accounts</h2>
+      <div class="line"></div>
+    </div>
+    <div class="accounts-grid">
 
-  <h2>Subscription Routing</h2>
-  <div class="route-grid">
-    <div class="route-card">
-      <div class="task">Deep Review</div>
-      <div class="provider">→ codex</div>
-      <div class="fallback">fallback: glm-global-coding-plan</div>
-    </div>
-    <div class="route-card">
-      <div class="task">Implementation</div>
-      <div class="provider">→ glm-global-coding-plan</div>
-      <div class="fallback">fallback: codex</div>
-    </div>
-    <div class="route-card">
-      <div class="task">Evaluation</div>
-      <div class="provider">→ chatgpt-plus</div>
-      <div class="fallback">fallback: glm-global-coding-plan</div>
-    </div>
-    <div class="route-card">
-      <div class="task">Cross Validation</div>
-      <div class="provider">→ chatgpt-plus</div>
-      <div class="fallback">fallback: codex</div>
-    </div>
-    <div class="route-card">
-      <div class="task">Vision</div>
-      <div class="provider">→ glm-global-coding-plan</div>
-      <div class="fallback">fallback: codex</div>
-    </div>
-    <div class="route-card">
-      <div class="task">Large Context</div>
-      <div class="provider">→ codex</div>
-      <div class="fallback">fallback: glm-global-coding-plan</div>
-    </div>
-    <div class="route-card">
-      <div class="task">Enterprise Red</div>
-      <div class="provider">→ codex</div>
-      <div class="fallback">fallback: local-ollama</div>
+      <div class="account-card" style="border-left: 3px solid #3b82f6">
+        <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:#3b82f6"></div>
+        <div class="top-row">
+          <div>
+            <div class="acct-name" style="color:#3b82f6">⚡ ishuru</div>
+            <div class="acct-domain">General Dev & Design</div>
+          </div>
+          <div>
+            <div class="skill-count" style="color:#3b82f6">80</div>
+            <div class="skill-count-label">skills</div>
+          </div>
+        </div>
+        <a class="repo-link" href="https://github.com/ishuru/ishuru-skills">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          ishuru-skills
+        </a>
+        <div class="mini-bar">
+          <div class="mini-bar-fill" style="width:94%;background:#3b82f6"></div>
+        </div>
+      </div>
+      <div class="account-card" style="border-left: 3px solid #8b5cf6">
+        <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:#8b5cf6"></div>
+        <div class="top-row">
+          <div>
+            <div class="acct-name" style="color:#8b5cf6">🧠 s4b7-ai</div>
+            <div class="acct-domain">AI & ML Agents</div>
+          </div>
+          <div>
+            <div class="skill-count" style="color:#8b5cf6">34</div>
+            <div class="skill-count-label">skills</div>
+          </div>
+        </div>
+        <a class="repo-link" href="https://github.com/s4b7-ai/s4b7-ai-skills">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          s4b7-ai-skills
+        </a>
+        <div class="mini-bar">
+          <div class="mini-bar-fill" style="width:40%;background:#8b5cf6"></div>
+        </div>
+      </div>
+      <div class="account-card" style="border-left: 3px solid #10b981">
+        <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:#10b981"></div>
+        <div class="top-row">
+          <div>
+            <div class="acct-name" style="color:#10b981">📋 sabarish-duvvuru</div>
+            <div class="acct-domain">Productivity & Workflow</div>
+          </div>
+          <div>
+            <div class="skill-count" style="color:#10b981">41</div>
+            <div class="skill-count-label">skills</div>
+          </div>
+        </div>
+        <a class="repo-link" href="https://github.com/sabarish-duvvuru/productivity-skills">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          productivity-skills
+        </a>
+        <div class="mini-bar">
+          <div class="mini-bar-fill" style="width:48%;background:#10b981"></div>
+        </div>
+      </div>
+      <div class="account-card" style="border-left: 3px solid #f59e0b">
+        <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:#f59e0b"></div>
+        <div class="top-row">
+          <div>
+            <div class="acct-name" style="color:#f59e0b">🔧 theleostark</div>
+            <div class="acct-domain">Infrastructure & Mesh</div>
+          </div>
+          <div>
+            <div class="skill-count" style="color:#f59e0b">64</div>
+            <div class="skill-count-label">skills</div>
+          </div>
+        </div>
+        <a class="repo-link" href="https://github.com/theleostark/infra-skills">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          infra-skills
+        </a>
+        <div class="mini-bar">
+          <div class="mini-bar-fill" style="width:75%;background:#f59e0b"></div>
+        </div>
+      </div>
+      <div class="account-card" style="border-left: 3px solid #ec4899">
+        <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:#ec4899"></div>
+        <div class="top-row">
+          <div>
+            <div class="acct-name" style="color:#ec4899">🔬 ishork</div>
+            <div class="acct-domain">Research & Content</div>
+          </div>
+          <div>
+            <div class="skill-count" style="color:#ec4899">37</div>
+            <div class="skill-count-label">skills</div>
+          </div>
+        </div>
+        <a class="repo-link" href="https://github.com/ishork/research-skills">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          research-skills
+        </a>
+        <div class="mini-bar">
+          <div class="mini-bar-fill" style="width:44%;background:#ec4899"></div>
+        </div>
+      </div>
+      <div class="account-card" style="border-left: 3px solid #ef4444">
+        <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:#ef4444"></div>
+        <div class="top-row">
+          <div>
+            <div class="acct-name" style="color:#ef4444">🏢 sduvvuru-qx</div>
+            <div class="acct-domain">Enterprise & Astemo</div>
+          </div>
+          <div>
+            <div class="skill-count" style="color:#ef4444">85</div>
+            <div class="skill-count-label">skills</div>
+          </div>
+        </div>
+        <a class="repo-link" href="https://github.com/sduvvuru-qx/enterprise-skills">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          enterprise-skills
+        </a>
+        <div class="mini-bar">
+          <div class="mini-bar-fill" style="width:100%;background:#ef4444"></div>
+        </div>
+      </div>
+      <div class="account-card" style="border-left: 3px solid #06b6d4">
+        <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:#06b6d4"></div>
+        <div class="top-row">
+          <div>
+            <div class="acct-name" style="color:#06b6d4">💰 duvvurs</div>
+            <div class="acct-domain">Azure FinOps</div>
+          </div>
+          <div>
+            <div class="skill-count" style="color:#06b6d4">10</div>
+            <div class="skill-count-label">skills</div>
+          </div>
+        </div>
+        <a class="repo-link" href="https://github.com/duvvurs/duvvur-skills">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          duvvur-skills
+        </a>
+        <div class="mini-bar">
+          <div class="mini-bar-fill" style="width:12%;background:#06b6d4"></div>
+        </div>
+      </div>
     </div>
   </div>
-
-  <h2>Privacy Tiers</h2>
-  <table>
-    <tr><th>Tier</th><th>GLM Allowed</th><th>Route To</th><th>Markers</th></tr>
-    <tr><td><span class="tier-badge tier-red">RED</span></td><td>❌ Never</td><td>codex / local-ollama</td><td>Astemo, Honda, FH4S, BOM, drawings, SASG</td></tr>
-    <tr><td><span class="tier-badge tier-amber">AMBER</span></td><td>⚠️ Conditional</td><td>Gemini preferred</td><td>Patent, mesh topology, personal financial</td></tr>
-    <tr><td><span class="tier-badge tier-green">GREEN</span></td><td>✅ Preferred</td><td>GLM primary</td><td>OSS code, public docs, UI prototypes, research</td></tr>
-  </table>
-
-  <h2>Multi-Agent Patterns</h2>
-  <div class="patterns">
-    <div class="pattern"><div class="name">Spawn + Evaluate</div><div class="desc">GLM primary → GPT-5.5 evaluation session for independent review</div></div>
-    <div class="pattern"><div class="name">Cross-Validate</div><div class="desc">Same prompt on 2+ models, compare outputs for critical decisions</div></div>
-    <div class="pattern"><div class="name">Parallel Batch</div><div class="desc">call_llm × N for batch classification/summarization simultaneously</div></div>
-    <div class="pattern"><div class="name">Context Isolation</div><div class="desc">Process large files via call_llm, keep main window clean</div></div>
-    <div class="pattern"><div class="name">Deep Reasoning</div><div class="desc">thinking:true on call_llm for complex subtasks without affecting main model</div></div>
+  
+  <!-- ━━ Quality Distribution ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Quality Distribution</h2>
+      <div class="line"></div>
+    </div>
+    <div class="grade-section">
+      <div class="grade-ring-container">
+        <svg width="180" height="180" viewBox="0 0 180 180">
+          <!-- A grade (emerald) -->
+          <circle cx="90" cy="90" r="78" fill="none" stroke="rgba(52,211,153,0.15)" stroke-width="14"/>
+          <circle cx="90" cy="90" r="78" fill="none" stroke="#34d399" stroke-width="14" 
+            stroke-dasharray="425.1 490" stroke-linecap="round"/>
+          <!-- B grade (indigo) -->
+          <circle cx="90" cy="90" r="60" fill="none" stroke="rgba(129,140,248,0.15)" stroke-width="14"/>
+          <circle cx="90" cy="90" r="60" fill="none" stroke="#818cf8" stroke-width="14"
+            stroke-dasharray="48.8 377" stroke-linecap="round"/>
+          <!-- C grade (amber) -->
+          <circle cx="90" cy="90" r="42" fill="none" stroke="rgba(251,191,36,0.15)" stroke-width="14"/>
+          <circle cx="90" cy="90" r="42" fill="none" stroke="#fbbf24" stroke-width="14"
+            stroke-dasharray="0.8 264" stroke-linecap="round"/>
+        </svg>
+        <div class="grade-ring-center">
+          <div class="big">317</div>
+          <div class="small">skills scored</div>
+        </div>
+      </div>
+      <div class="grade-bars">
+        <div class="grade-bar-row">
+          <span class="grade-label" style="color:#34d399">A</span>
+          <div class="bar-track"><div class="bar-fill" style="width:86.8%;background:#34d399"></div></div>
+          <span class="bar-count" style="color:#34d399">275</span>
+        </div>
+        <div class="grade-bar-row">
+          <span class="grade-label" style="color:#818cf8">B</span>
+          <div class="bar-track"><div class="bar-fill" style="width:12.9%;background:#818cf8"></div></div>
+          <span class="bar-count" style="color:#818cf8">41</span>
+        </div>
+        <div class="grade-bar-row">
+          <span class="grade-label" style="color:#fbbf24">C</span>
+          <div class="bar-track"><div class="bar-fill" style="width:0.3%;background:#fbbf24"></div></div>
+          <span class="bar-count" style="color:#fbbf24">1</span>
+        </div>
+        <div class="grade-bar-row">
+          <span class="grade-label" style="color:#71717a">D</span>
+          <div class="bar-track"><div class="bar-fill" style="width:0%;background:#71717a"></div></div>
+          <span class="bar-count" style="color:#71717a">0</span>
+        </div>
+      </div>
+    </div>
   </div>
+  
+  <!-- ━━ Top Categories ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Top Categories</h2>
+      <div class="line"></div>
+    </div>
+    <table class="cat-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Skills</th>
+          <th>Distribution</th>
+          <th>Icon Coverage</th>
+          <th>Deps</th>
+          <th>Avg Score</th>
+        </tr>
+      </thead>
+      <tbody>
 
-  <h2>Categories</h2>
-  <table>
-    <tr><th>Category</th><th>Skills</th><th>Icons</th><th>Dependencies</th></tr>
-    <tr>
-      <td>mesh/shadow</td>
-      <td>60</td>
-      <td>56 (93%)</td>
-      <td>27</td>
-    </tr>
-    <tr>
-      <td>enterprise/astemo</td>
-      <td>50</td>
-      <td>42 (84%)</td>
-      <td>72</td>
-    </tr>
-    <tr>
-      <td>automation/headless</td>
-      <td>35</td>
-      <td>35 (100%)</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>enterprise/fh4s</td>
-      <td>26</td>
-      <td>26 (100%)</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td>workflow/process</td>
-      <td>23</td>
-      <td>22 (95%)</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>design/ui</td>
-      <td>17</td>
-      <td>17 (100%)</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>dev/code</td>
-      <td>16</td>
-      <td>14 (87%)</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>memory/context</td>
-      <td>13</td>
-      <td>11 (84%)</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>automation/browser</td>
-      <td>8</td>
-      <td>5 (62%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>dev/github</td>
-      <td>7</td>
-      <td>6 (85%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>content/x</td>
-      <td>7</td>
-      <td>5 (71%)</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <td>system/security</td>
-      <td>6</td>
-      <td>5 (83%)</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>enterprise/work</td>
-      <td>6</td>
-      <td>4 (66%)</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>dev/testing</td>
-      <td>6</td>
-      <td>6 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>uncategorized</td>
-      <td>3</td>
-      <td>0 (0%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>docs/pptx</td>
-      <td>3</td>
-      <td>3 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>storage/cloud</td>
-      <td>2</td>
-      <td>1 (50%)</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>docs/office</td>
-      <td>2</td>
-      <td>2 (100%)</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>system/performance</td>
-      <td>2</td>
-      <td>2 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>tools/visualization</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>reference</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>content/intel</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>automation/cli</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>analysis/framework</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>craft/commands</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>design/dataviz</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>enterprise/workflow</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>dev/workflow</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>dev/deploy</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>craft/runtime</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>research/web</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>automation/auth</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>system/storage</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>system/ops</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>system/inference</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>content/media</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>hardware</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>productivity/apps</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>system/identity</td>
-      <td>1</td>
-      <td>1 (100%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>engineering/design</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>render/remotion</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>system/typora</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>research/knowledge</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>workflow/template</td>
-      <td>1</td>
-      <td>0 (0%)</td>
-      <td>7</td>
-    </tr>
-  </table>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#818cf8"></span>mesh/shadow</div></td>
+          <td style="font-weight:600">60</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:18.9%;background:#818cf8"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">18.9%</span>
+          </td>
+          <td>93%</td>
+          <td>27</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">87</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#60a5fa"></span>enterprise/astemo</div></td>
+          <td style="font-weight:600">50</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:15.8%;background:#60a5fa"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">15.8%</span>
+          </td>
+          <td>84%</td>
+          <td>72</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">84</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#34d399"></span>automation/headless</div></td>
+          <td style="font-weight:600">35</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:11.0%;background:#34d399"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">11.0%</span>
+          </td>
+          <td>100%</td>
+          <td>2</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">86</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#fbbf24"></span>enterprise/fh4s</div></td>
+          <td style="font-weight:600">26</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:8.2%;background:#fbbf24"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">8.2%</span>
+          </td>
+          <td>100%</td>
+          <td>20</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">84</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#fb7185"></span>workflow/process</div></td>
+          <td style="font-weight:600">23</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:7.3%;background:#fb7185"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">7.3%</span>
+          </td>
+          <td>96%</td>
+          <td>10</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">84</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#a78bfa"></span>design/ui</div></td>
+          <td style="font-weight:600">17</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:5.4%;background:#a78bfa"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">5.4%</span>
+          </td>
+          <td>100%</td>
+          <td>10</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">81</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#22d3ee"></span>dev/code</div></td>
+          <td style="font-weight:600">16</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:5.0%;background:#22d3ee"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">5.0%</span>
+          </td>
+          <td>88%</td>
+          <td>2</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">88</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#fb923c"></span>memory/context</div></td>
+          <td style="font-weight:600">13</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:4.1%;background:#fb923c"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">4.1%</span>
+          </td>
+          <td>85%</td>
+          <td>5</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">85</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#f472b6"></span>automation/browser</div></td>
+          <td style="font-weight:600">8</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:2.5%;background:#f472b6"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">2.5%</span>
+          </td>
+          <td>62%</td>
+          <td>2</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">86</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#a3e635"></span>dev/github</div></td>
+          <td style="font-weight:600">7</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:2.2%;background:#a3e635"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">2.2%</span>
+          </td>
+          <td>86%</td>
+          <td>0</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">87</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#38bdf8"></span>content/x</div></td>
+          <td style="font-weight:600">7</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:2.2%;background:#38bdf8"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">2.2%</span>
+          </td>
+          <td>71%</td>
+          <td>19</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">84</td>
+        </tr>
+        <tr>
+          <td><div class="cat-name"><span class="cat-dot" style="background:#e879f9"></span>system/security</div></td>
+          <td style="font-weight:600">6</td>
+          <td>
+            <div class="cat-bar"><div class="cat-bar-inner" style="width:1.9%;background:#e879f9"></div></div>
+            <span style="font-size:11px;color:var(--text-muted)">1.9%</span>
+          </td>
+          <td>83%</td>
+          <td>2</td>
+          <td style="font-weight:600;color:var(--accent-emerald)">88</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <!-- ━━ Most Depended-Upon ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Most Depended-Upon Skills</h2>
+      <div class="line"></div>
+    </div>
+    <div class="dep-grid">
 
-  <h2>Install</h2>
-  <pre style="background:#171717;padding:16px;border-radius:8px;font-size:13px;color:#a5b4fc">curl -sL https://raw.githubusercontent.com/ishuru/ishuru-skill-distribution/main/install.sh | bash</pre>
+      <div class="dep-item">
+        <div class="dep-count">22</div>
+        <div>
+          <div class="dep-name">astemo-work-context</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+      <div class="dep-item">
+        <div class="dep-count">13</div>
+        <div>
+          <div class="dep-name">design-system</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+      <div class="dep-item">
+        <div class="dep-count">7</div>
+        <div>
+          <div class="dep-name">astemo-xlsx</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+      <div class="dep-item">
+        <div class="dep-count">7</div>
+        <div>
+          <div class="dep-name">astemo-colleague-attunement</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+      <div class="dep-item">
+        <div class="dep-count">7</div>
+        <div>
+          <div class="dep-name">hl-x</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+      <div class="dep-item">
+        <div class="dep-count">6</div>
+        <div>
+          <div class="dep-name">astemo-pipeline</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+      <div class="dep-item">
+        <div class="dep-count">4</div>
+        <div>
+          <div class="dep-name">crystallize</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+      <div class="dep-item">
+        <div class="dep-count">4</div>
+        <div>
+          <div class="dep-name">skill-surgery-rd</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+      <div class="dep-item">
+        <div class="dep-count">4</div>
+        <div>
+          <div class="dep-name">fh4s-change-point-update</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+      <div class="dep-item">
+        <div class="dep-count">4</div>
+        <div>
+          <div class="dep-name">fh4s-context</div>
+          <div class="dep-label">dependents</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ━━ Subscription Routing ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Subscription Routing</h2>
+      <div class="line"></div>
+    </div>
+    <div class="routing-grid">
+      <div class="route-card">
+        <div class="route-task">Implementation</div>
+        <div class="route-provider"><span class="route-arrow">→</span> GLM-5.1</div>
+        <div class="route-fallback">fallback: codex · temp: 0.5 · 128K ctx</div>
+      </div>
+      <div class="route-card">
+        <div class="route-task">Deep Review</div>
+        <div class="route-provider"><span class="route-arrow">→</span> Codex</div>
+        <div class="route-fallback">fallback: GLM · temp: 0.3 · 200K ctx</div>
+      </div>
+      <div class="route-card">
+        <div class="route-task">Evaluation</div>
+        <div class="route-provider"><span class="route-arrow">→</span> GPT-5.x</div>
+        <div class="route-fallback">fallback: GLM · temp: 0.4 · 200K ctx</div>
+      </div>
+      <div class="route-card">
+        <div class="route-task">Cross-Validation</div>
+        <div class="route-provider"><span class="route-arrow">→</span> GPT-5.x</div>
+        <div class="route-fallback">fallback: codex · temp: 0.2 · 200K ctx</div>
+      </div>
+      <div class="route-card">
+        <div class="route-task">Vision</div>
+        <div class="route-provider"><span class="route-arrow">→</span> GLM-5.1</div>
+        <div class="route-fallback">fallback: codex · temp: 0.5 · 128K ctx</div>
+      </div>
+      <div class="route-card">
+        <div class="route-task">Large Context</div>
+        <div class="route-provider"><span class="route-arrow">→</span> Codex</div>
+        <div class="route-fallback">fallback: GLM · temp: 0.5 · 1M ctx</div>
+      </div>
+      <div class="route-card">
+        <div class="route-task">Enterprise RED</div>
+        <div class="route-provider"><span class="route-arrow">→</span> Codex</div>
+        <div class="route-fallback">fallback: local-ollama · temp: 0.3 · 128K ctx</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ━━ Privacy Tiers ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Privacy Tiers (GLM-001)</h2>
+      <div class="line"></div>
+    </div>
+    <div class="tier-row">
+      <span class="tier-badge tier-red">RED</span>
+      <span class="tier-glm" style="color:#f87171">❌ Never</span>
+      <span class="tier-route">codex / local-ollama</span>
+      <span class="tier-markers">Astemo · Honda · FH4S · BOM · drawings · SASG</span>
+    </div>
+    <div class="tier-row">
+      <span class="tier-badge tier-amber">AMBER</span>
+      <span class="tier-glm" style="color:#fbbf24">⚠️ Conditional</span>
+      <span class="tier-route">Gemini preferred</span>
+      <span class="tier-markers">Patent · mesh topology · personal financial</span>
+    </div>
+    <div class="tier-row">
+      <span class="tier-badge tier-green">GREEN</span>
+      <span class="tier-glm" style="color:#34d399">✅ Preferred</span>
+      <span class="tier-route">GLM primary</span>
+      <span class="tier-markers">OSS code · public docs · UI prototypes · research</span>
+    </div>
+  </div>
+  
+  <!-- ━━ Multi-Agent Patterns ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Multi-Agent Patterns</h2>
+      <div class="line"></div>
+    </div>
+    <div class="patterns-grid">
+      <div class="pattern-card">
+        <div class="p-icon">🔄</div>
+        <div class="p-name">Spawn + Evaluate</div>
+        <div class="p-desc">GLM primary task → GPT-5.5 evaluation session for independent review and quality gate</div>
+      </div>
+      <div class="pattern-card">
+        <div class="p-icon">⚖️</div>
+        <div class="p-name">Cross-Validate</div>
+        <div class="p-desc">Same prompt on 2+ models, compare outputs for critical decisions and consensus building</div>
+      </div>
+      <div class="pattern-card">
+        <div class="p-icon">⚡</div>
+        <div class="p-name">Parallel Batch</div>
+        <div class="p-desc">call_llm × N for simultaneous batch classification, summarization, or extraction tasks</div>
+      </div>
+      <div class="pattern-card">
+        <div class="p-icon">🧩</div>
+        <div class="p-name">Context Isolation</div>
+        <div class="p-desc">Process large files via call_llm to keep main context window clean and focused</div>
+      </div>
+      <div class="pattern-card">
+        <div class="p-icon">🧠</div>
+        <div class="p-name">Deep Reasoning</div>
+        <div class="p-desc">thinking:true on call_llm for complex subtasks without burning main model reasoning budget</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ━━ Install Footer ━━ -->
+  <div class="install-bar">
+    <div class="install-label">Install all skills:</div>
+    <code class="install-cmd">curl -sL https://raw.githubusercontent.com/ishuru/ishuru-skill-distribution/main/install.sh | bash</code>
+    <div class="install-meta">
+      Meta-repo: <a href="https://github.com/ishuru/ishuru-skill-distribution" style="color:var(--accent-blue)">ishuru/ishuru-skill-distribution</a><br>
+      npm: @ishuru/skill-router · CLI: skill-router, skill-sync
+    </div>
+  </div>
 
 </div>
 </body>
