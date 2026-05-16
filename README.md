@@ -5,7 +5,7 @@ Unified skill distribution registry, installer, and multi-agent subscription rou
 ## Quick Start
 
 ```bash
-# Install all 396 skills
+# Install all 385 skills
 curl -sL https://raw.githubusercontent.com/ishuru/ishuru-skill-distribution/main/install.sh | bash
 
 # Or clone and run
@@ -26,7 +26,7 @@ cd ishuru-skill-distribution
 ## Distribution Map
 
 ```
-7 accounts · 10 repos · 396 skills · 13 categories
+7 accounts · 8 repos · 385 skills · 13 categories
 ```
 
 | Account | Repo | Skills | Domain |
@@ -37,7 +37,7 @@ cd ishuru-skill-distribution
 | **sabarish-duvvuru** | `productivity-skills` | 46 | Calendar, focus, Bee AI, notes |
 | **theleostark** | `infra-skills` | 74 | Mesh, shadow ops, devices, security |
 | **ishork** | `research-skills` | 38 | X, YouTube, Reddit, content, patterns |
-| **sduvvuru-qx** | `enterprise-skills` | 102 | Astemo, FH4S, M365, governance |
+| **sduvvuru-qx** | `enterprise-skills` | 115 | Astemo, FH4S, M365, governance |
 | **duvvurs** | `duvvur-skills` | 10 | Azure FinOps |
 
 ---

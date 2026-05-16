@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "2026-05-13T22:10:19Z",
+  "updated": "2026-05-16T00:38:47Z",
   "accounts": {
     "ishuru": {
       "repos": {
@@ -339,7 +339,7 @@
         "enterprise-skills": {
           "url": "https://github.com/sduvvuru-qx/enterprise-skills",
           "domain": "enterprise",
-          "skill_count": 85,
+          "skill_count": 115,
           "skills": [
             "astemo",
             "astemo-calendar",
@@ -441,7 +441,7 @@
       }
     }
   },
-  "total_skills": 355,
+  "total_skills": 385,
   "subscription_routing": {
     "providers": {
       "glm-global-coding-plan": {
