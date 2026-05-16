@@ -26,7 +26,7 @@ cd ishuru-skill-distribution
 ## Distribution Map
 
 ```
-7 accounts · 8 repos · 385 skills · 13 categories
+6 accounts · 7 repos · 385 skills · 13 categories
 ```
 
 | Account | Repo | Skills | Domain |
@@ -38,7 +38,6 @@ cd ishuru-skill-distribution
 | **theleostark** | `infra-skills` | 74 | Mesh, shadow ops, devices, security |
 | **ishork** | `research-skills` | 38 | X, YouTube, Reddit, content, patterns |
 | **sduvvuru-qx** | `enterprise-skills` | 115 | Astemo, FH4S, M365, governance |
-| **duvvurs** | `duvvur-skills` | 10 | Azure FinOps |
 
 ---
 

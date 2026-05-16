@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "2026-05-16T00:38:47Z",
+  "updated": "2026-05-16T00:42:39Z",
   "accounts": {
     "ishuru": {
       "repos": {
@@ -427,16 +427,6 @@
             "symphony-linear-setup",
             "teams-rich-compose"
           ]
-        }
-      }
-    },
-    "duvvurs": {
-      "repos": {
-        "duvvur-skills": {
-          "url": "https://github.com/duvvurs/duvvur-skills",
-          "domain": "azure-finops",
-          "skill_count": 0,
-          "skills": []
         }
       }
     }
