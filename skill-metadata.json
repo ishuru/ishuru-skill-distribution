@@ -4158,6 +4158,132 @@
     "line_count": 151
   },
   {
+    "slug": "quality-form-workflows",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-form-workflows",
+    "description": "Use for quality systems quality-form workflows covering DFMEA, DRBFM, quality schedule, and related form content generation or review.",
+    "line_count": 46
+  },
+  {
+    "slug": "quality-linkage-trace",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-linkage-trace",
+    "description": "Use for quality systems linkage and traceability checks across drawing characteristics, DFMEA, control plans, and downstream work instructions.",
+    "line_count": 48
+  },
+  {
+    "slug": "quality-standards-map",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-standards-map",
+    "description": "Use to map quality systems IDs, standard families, and topic keywords to the right governing standard and dependency chain.",
+    "line_count": 48
+  },
+  {
+    "slug": "quality-systems-activity-intensity",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-activity-intensity",
+    "description": "Use for activity-intensity activity-rank logic that determines the intensity and mandatory scope of quality work.",
+    "line_count": 28
+  },
+  {
+    "slug": "quality-systems-audit-readiness",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-audit-readiness",
+    "description": "Use for N31 audit logic, audit-readiness interpretation, and audit evidence framing.",
+    "line_count": 26
+  },
+  {
+    "slug": "quality-systems-change-risk-review",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-change-risk-review",
+    "description": "Use for change-risk-review DRBFM logic from change point to concern, countermeasure, and evaluation.",
+    "line_count": 33
+  },
+  {
+    "slug": "quality-systems-control-plan",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-control-plan",
+    "description": "Use for L10 control-plan logic linking design/process risks into concrete manufacturing controls.",
+    "line_count": 27
+  },
+  {
+    "slug": "quality-systems-critical-characteristics",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-critical-characteristics",
+    "description": "Use for critical-characteristics critical-characteristics logic around critical characteristics, high-consequence items, and escalation.",
+    "line_count": 27
+  },
+  {
+    "slug": "quality-systems-design-fmea",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-design-fmea",
+    "description": "Use for design-fmea DFMEA logic, scoring, entry construction, and mitigation planning.",
+    "line_count": 33
+  },
+  {
+    "slug": "quality-systems-linkage-check",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-linkage-check",
+    "description": "Use for linkage-check linkage-check logic across drawing characteristics, DFMEA, control plans, and work instructions.",
+    "line_count": 27
+  },
+  {
+    "slug": "quality-systems-problem-framing",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-problem-framing",
+    "description": "Use for design-problem-framing structured problem framing-style structured problem and concern framing before deeper quality-form work.",
+    "line_count": 27
+  },
+  {
+    "slug": "quality-systems-process-fmea",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-process-fmea",
+    "description": "Use for L11 PFMEA process-side failure analysis as the manufacturing counterpart to DFMEA.",
+    "line_count": 27
+  },
+  {
+    "slug": "quality-systems-quality-schedule",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-quality-schedule",
+    "description": "Use for quality-schedule-form FormB quality-schedule logic, milestone planning, and quality activity timing.",
+    "line_count": 28
+  },
+  {
+    "slug": "quality-systems-realization-flow",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-realization-flow",
+    "description": "Use for realization-flow product-realization process framing across lifecycle planning and quality workflow placement.",
+    "line_count": 27
+  },
+  {
+    "slug": "quality-systems-review-gates",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-review-gates",
+    "description": "Use for K12 design-review and test-review gate logic, readiness checks, and review framing.",
+    "line_count": 26
+  },
+  {
+    "slug": "quality-systems-special-characteristics",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-special-characteristics",
+    "description": "Use for K21 special-characteristics and critical-characteristics designation logic across drawings and downstream quality documents.",
+    "line_count": 27
+  },
+  {
+    "slug": "quality-systems-transfer-risk-form",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-transfer-risk-form",
+    "description": "Use for transfer-risk-form FormA production-transfer risk logic and JP-to-US transfer assessment.",
+    "line_count": 28
+  },
+  {
+    "slug": "quality-systems-work-instruction",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "quality-systems-work-instruction",
+    "description": "Use for L21 work-instruction logic that turns quality/control requirements into operator-level execution steps.",
+    "line_count": 27
+  },
+  {
     "slug": "reverse-github",
     "repo": "sduvvuru-qx/enterprise-skills",
     "name": "Reverse GitHub",
@@ -4208,6 +4334,83 @@
     "line_count": 76
   },
   {
+    "slug": "shadow-ent-action-followthrough",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-action-followthrough",
+    "description": "Use for extracting accountable pending work from enterprise meetings, Outlook, Teams, SharePoint, and related engineering follow-up channels.",
+    "line_count": 51
+  },
+  {
+    "slug": "shadow-ent-artifact-operations",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-artifact-operations",
+    "description": "Use for enterprise decks, spreadsheets, templates, and customer-safe/internal artifact delivery.",
+    "line_count": 41
+  },
+  {
+    "slug": "shadow-ent-engineering-review",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-engineering-review",
+    "description": "Use for reducing engineering evidence into internal review packs, decision summaries, and customer-safe review content.",
+    "line_count": 58
+  },
+  {
+    "slug": "shadow-ent-enterprise-routing",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-enterprise-routing",
+    "description": "Use to pick the right enterprise source path across Outlook, Teams, SharePoint, Smartsheet, and local files before extracting or summarizing.",
+    "line_count": 59
+  },
+  {
+    "slug": "shadow-ent-meeting-operations",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-meeting-operations",
+    "description": "Use for enterprise meeting context, action extraction, recording/transcript usage, and related follow-up workflows.",
+    "line_count": 41
+  },
+  {
+    "slug": "shadow-ent-program-brief",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-program-brief",
+    "description": "Use to assemble concise program-state context across enterprise programs and adjacent engineering review lanes.",
+    "line_count": 52
+  },
+  {
+    "slug": "shadow-ent-program-operations",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-program-operations",
+    "description": "Use to gather and present current program context, status, and next-step framing across enterprise programs.",
+    "line_count": 42
+  },
+  {
+    "slug": "shadow-ent-sasg-operations",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-quality-systems-operations",
+    "description": "Use for broad quality-systems standards, forms, linkage, and production-transfer risk workflows across enterprise quality work.",
+    "line_count": 42
+  },
+  {
+    "slug": "shadow-ent-stakeholder-packaging",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-stakeholder-packaging",
+    "description": "Use to frame enterprise work for different stakeholders, roles, and audiences without relying on one person's private memory.",
+    "line_count": 41
+  },
+  {
+    "slug": "shadow-ent-surface-routing",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-surface-routing",
+    "description": "Use to choose the right enterprise surface across Outlook, Teams, SharePoint, OneDrive, Smartsheet, and local artifacts.",
+    "line_count": 46
+  },
+  {
+    "slug": "shadow-ent-tracker-operations",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "shadow-ent-tracker-operations",
+    "description": "Use for enterprise trackers, schedules, workbooks, and Smartsheet-style table operations.",
+    "line_count": 41
+  },
+  {
     "slug": "sp-crawl",
     "repo": "sduvvuru-qx/enterprise-skills",
     "name": "SharePoint Crawl",
@@ -4242,5 +4445,12 @@
     "lifecycle": "active",
     "canonical_slug": "teams-rich-compose",
     "line_count": 165
+  },
+  {
+    "slug": "transfer-risk-planning",
+    "repo": "sduvvuru-qx/enterprise-skills",
+    "name": "transfer-risk-planning",
+    "description": "Use for quality systems production-transfer risk framing, activity ranking, and JP-to-US transfer quality planning.",
+    "line_count": 47
   }
 ]

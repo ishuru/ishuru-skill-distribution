@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "2026-05-16T00:42:39Z",
+  "updated": "2026-05-18T07:17:14Z",
   "accounts": {
     "ishuru": {
       "repos": {
@@ -419,14 +419,54 @@
             "outlook-draft-guardrails",
             "outlook-headless-workflow",
             "plastic-injection-molding",
+            "quality-form-workflows",
+            "quality-linkage-trace",
+            "quality-standards-map",
+            "quality-systems-activity-intensity",
+            "quality-systems-audit-readiness",
+            "quality-systems-change-risk-review",
+            "quality-systems-control-plan",
+            "quality-systems-critical-characteristics",
+            "quality-systems-design-fmea",
+            "quality-systems-linkage-check",
+            "quality-systems-problem-framing",
+            "quality-systems-process-fmea",
+            "quality-systems-quality-schedule",
+            "quality-systems-realization-flow",
+            "quality-systems-review-gates",
+            "quality-systems-special-characteristics",
+            "quality-systems-transfer-risk-form",
+            "quality-systems-work-instruction",
             "reverse-github",
             "ryoko-schaefer-communication",
             "sabarish-communication-style",
             "saitoh-ken-communication",
+            "shadow-ent-action-followthrough",
+            "shadow-ent-artifact-operations",
+            "shadow-ent-engineering-review",
+            "shadow-ent-enterprise-routing",
+            "shadow-ent-meeting-operations",
+            "shadow-ent-program-brief",
+            "shadow-ent-program-operations",
+            "shadow-ent-sasg-operations",
+            "shadow-ent-stakeholder-packaging",
+            "shadow-ent-surface-routing",
+            "shadow-ent-tracker-operations",
             "sp-crawl",
             "symphony-linear-setup",
-            "teams-rich-compose"
+            "teams-rich-compose",
+            "transfer-risk-planning"
           ]
+        }
+      }
+    },
+    "duvvurs": {
+      "repos": {
+        "duvvur-skills": {
+          "url": "https://github.com/duvvurs/duvvur-skills",
+          "domain": "azure-finops",
+          "skill_count": 0,
+          "skills": []
         }
       }
     }
